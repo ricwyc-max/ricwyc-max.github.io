@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>笔记索引页 on Eric Wu | 河海大学 智能建造 &amp; AI</title><link>https://ricwyc-max.github.io/notebook/</link><description>Recent content in 笔记索引页 on Eric Wu | 河海大学 智能建造 &amp; AI</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate/><atom:link href="https://ricwyc-max.github.io/notebook/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notebooks on Eric Wu | 河海大学 智能建造 &amp; AI</title>
+    <link>http://localhost:1313/notebook/</link>
+    <description>Recent content in Notebooks on Eric Wu | 河海大学 智能建造 &amp; AI</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/notebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一个前端程序</title>
+      <link>http://localhost:1313/notebook/html_css_js_vue/1/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notebook/html_css_js_vue/1/</guid>
+      <description>&lt;h3 id=&#34;第一个前端程序&#34;&gt;第一个前端程序&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1第一步使用笔记本编写代码&#34;&gt;1.&#x9;第一步：使用笔记本，编写代码&lt;/h4&gt;</description>
+    </item>
+  </channel>
+</rss>
