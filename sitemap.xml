@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ricwyc-max.github.io/categories/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ricwyc-max.github.io/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ricwyc-max.github.io/tags/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ricwyc-max.github.io/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ricwyc-max.github.io/tags/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ricwyc-max.github.io/projects/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ricwyc-max.github.io/categories/%E7%B4%A2%E5%BC%95/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ricwyc-max.github.io/tags/%E7%B4%A2%E5%BC%95/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ricwyc-max.github.io/categories/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ricwyc-max.github.io/categories/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ricwyc-max.github.io/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ricwyc-max.github.io/categories/html/</loc>
@@ -21,9 +39,6 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ricwyc-max.github.io/posts/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ricwyc-max.github.io/tags/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ricwyc-max.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
@@ -42,12 +57,6 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ricwyc-max.github.io/categories/%E7%B4%A2%E5%BC%95/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ricwyc-max.github.io/tags/%E7%B4%A2%E5%BC%95/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ricwyc-max.github.io/tags/%E8%AE%BA%E6%96%87/</loc>
