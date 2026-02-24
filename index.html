@@ -1,26 +1,383 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta property="og:url" content="https://ricwyc-max.github.io/"><meta property="og:site_name" content="Eric Wu | 河海大学 智能建造 & AI"><meta property="og:title" content="Eric Wu | 河海大学 智能建造 & AI"><meta property="og:description" content="Eric Wu | 河海大学智能建造专业大三学生 | 主修智能建造，辅修生成式AI | 研究方向：图像传感、计算机视觉"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Eric Wu | 河海大学 智能建造 & AI"><meta name=twitter:description content="Eric Wu | 河海大学智能建造专业大三学生 | 主修智能建造，辅修生成式AI | 研究方向：图像传感、计算机视觉"><meta name=generator content="Hugo 0.154.5"><script type=application/ld+json>{"@context":"http://schema.org","@type":"Blog","headline":"Eric Wu | 河海大学 智能建造 \u0026 AI","url":"https://ricwyc-max.github.io/","author":{"@type":"Person","name":"Eric Wu - 河海大学智能建造专业"},"dateModified":"2026-02-24T00:00:00+00:00","keywords":"a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses, html, 前端, 我的博客分类, 我的项目, 笔记, 索引, 论文精读, 随笔, html, 前端, 我的博客标签, 我的项目, 搜索, 梦开始的地方, 笔记, 索引, 论文, 论文精读","description":"Eric Wu | 河海大学智能建造专业大三学生 | 主修智能建造，辅修生成式AI | 研究方向：图像传感、计算机视觉"}</script><link rel=canonical href=https://ricwyc-max.github.io/><title>Eric Wu | 河海大学 智能建造 & AI</title><link href=https://ricwyc-max.github.io/css/style.0b72f41a0f22d687d912a8e7c945fc14c7a36daee062380f9fae9958e7d17da6.css rel=stylesheet><script defer src=https://ricwyc-max.github.io/js/fontawesome.min.a290d22177f491b8a83b0ee7eb739224c57ab052d8fab69d8f52aab860e42027.js integrity="sha256-opDSIXf0kbioOw7n63OSJMV6sFLY+radj1KquGDkICc=" crossorigin=anonymous></script><link rel=alternate type=application/rss+xml href=https://ricwyc-max.github.io/index.xml title="Eric Wu | 河海大学 智能建造 & AI"><link rel=icon href=https://ricwyc-max.github.io/favicon.ico><style>.blog-title img{border-radius:15px;height:100px;flex-shrink:0}</style><script src=https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/toolbar/prism-toolbar.min.js></script><script src=https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/toolbar/prism-toolbar.min.css><style>div.highlight,pre[class*=language-]{position:relative}.copy-btn{position:absolute;top:6px;right:8px;font-size:12px;padding:2px 6px;color:#fff;background:#555;border:none;border-radius:3px;cursor:pointer;opacity:0;transition:opacity .2s;z-index:10}div.highlight:hover .copy-btn,pre:hover .copy-btn{opacity:1}</style><script>(function(){function e(){document.querySelectorAll('pre[class*="language-"], div.highlight pre').forEach(function(e){if(e.querySelector(".copy-btn"))return;const t=document.createElement("button");t.textContent="Copy",t.className="copy-btn",t.addEventListener("click",function(){const n=e.querySelector("code").innerText;navigator.clipboard.writeText(n),t.textContent="Copied!",setTimeout(()=>t.textContent="Copy",1200)}),e.appendChild(t)})}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",e):e(),window.addEventListener("prism-highlighted",e)})()</script><style>.blog-post{background:#e3f2fd;border-radius:12px;padding:1.5rem;margin-bottom:2rem;box-shadow:0 30px 50px rgba(0,0,0,.5);transition:background .3s,box-shadow .3s}.blog-post:hover{background:#42a5f5;box-shadow:0 40px 60px rgba(0,0,0,.7)}.blog-post:hover p,.blog-post:hover li,.blog-post:hover blockquote{color:#0d1b2a}.blog-post:hover a{color:#f9a825!important}</style><style>.blog-post-meta a:hover,.meta-terms a:hover{color:#f9a825!important}</style></head><body><div class=blog-masthead><div class=container><nav class="nav blog-nav"><a class="nav-link active" href=https://ricwyc-max.github.io/>Home</a>
-<a class=nav-link href=https://ricwyc-max.github.io/ title>🏠 首页</a>
-<a class=nav-link href=https://ricwyc-max.github.io/about/introduce-myself title>👤 关于我</a>
-<a class=nav-link href=https://ricwyc-max.github.io/projects/ title>🚀 项目经历</a>
-<a class=nav-link href=https://ricwyc-max.github.io/notebook/ title>📓 学习笔记</a>
-<a class=nav-link href=https://ricwyc-max.github.io/paper/ title>📰 论文精读</a>
-<a class=nav-link href=https://ricwyc-max.github.io/posts/ title>📚 所有文章</a>
-<a class=nav-link href=https://ricwyc-max.github.io/ title>✍️ 我的博客</a>
-<a class=nav-link href=https://github.com/ricwyc-max title>🐱 GitHub</a>
-<a class=nav-link href=https://ricwyc-max.github.io/search/search title>🔍 搜索文章</a></nav></div></div><header class=blog-header><div class=container><h1 class=blog-title dir=auto><a href=https://ricwyc-max.github.io/ rel=home><img src=https://ricwyc-max.github.io/images/logo.jpg alt=logo height=80 style=vertical-align:middle;margin-right:.5rem>
-Eric Wu | 河海大学 智能建造 & AI</a></h1><p class="lead blog-description" dir=auto>Eric Wu | 河海大学智能建造专业大三学生 | 主修智能建造，辅修生成式AI | 研究方向：图像传感、计算机视觉</p></div></header><div class=container><div class=row><div class="col-sm-8 blog-main"><article class=blog-post><header><h2 class=blog-post-title dir=auto><a href=https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/>前端工具的选择与安装</a></h2><p class=blog-post-meta><time datetime=2026-02-24T00:00:00Z>2026年02月24日</time> by Eric_wu in
-<span class="fas fa-folder" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/ rel="category tag">笔记</a>, <a href=https://ricwyc-max.github.io/categories/html/ rel="category tag">HTML</a>, <a href=https://ricwyc-max.github.io/categories/%E5%89%8D%E7%AB%AF/ rel="category tag">前端</a>
-<span class="fas fa-tag" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/tags/%E5%89%8D%E7%AB%AF/ rel=tag>前端</a>, <a href=https://ricwyc-max.github.io/tags/html/ rel=tag>HTML</a></p></header><h3 id=前端工具的选择与安装>前端工具的选择与安装</h3><h4 id=1前端常见开发者工具>1. 前端常见开发者工具</h4><a href=https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/>Read more →</a></article><article class=blog-post><header><h2 class=blog-post-title dir=auto><a href=https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/>《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》论文精读</a></h2><p class=blog-post-meta><time datetime=2026-01-27T00:00:00Z>2026年01月27日</time> by Eric_wu in
-<span class="fas fa-folder" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/ rel="category tag">笔记</a>, <a href=https://ricwyc-max.github.io/categories/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses/ rel="category tag">A-Versatile-Camera-Calibration-Techniaue-for-High-Accuracy-3D-Machine-Vision-Metrology-Using-Off-the-shelf-TV-Cameras-and-Lenses</a>, <a href=https://ricwyc-max.github.io/categories/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/ rel="category tag">论文精读</a>
-<span class="fas fa-tag" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/tags/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/ rel=tag>论文精读</a>, <a href=https://ricwyc-max.github.io/tags/%E8%AE%BA%E6%96%87/ rel=tag>论文</a></p></header><h3 id=a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses>《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》</h3><h3 id=一个使用现成的tv摄像机和柔性焦距透镜组的用于高精确率3d机器视觉度量的多功能相机标定技术>一个使用现成的TV摄像机和柔性焦距透镜组的用于高精确率3D机器视觉度量的多功能相机标定技术</h3><a href=https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/>Read more →</a></article><article class=blog-post><header><h2 class=blog-post-title dir=auto><a href=https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/>第一个前端程序</a></h2><p class=blog-post-meta><time datetime=2026-01-27T00:00:00Z>2026年01月27日</time> by Eric_wu in
-<span class="fas fa-folder" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/ rel="category tag">笔记</a>, <a href=https://ricwyc-max.github.io/categories/html/ rel="category tag">HTML</a>, <a href=https://ricwyc-max.github.io/categories/%E5%89%8D%E7%AB%AF/ rel="category tag">前端</a>
-<span class="fas fa-tag" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/tags/%E5%89%8D%E7%AB%AF/ rel=tag>前端</a>, <a href=https://ricwyc-max.github.io/tags/html/ rel=tag>HTML</a></p></header><h3 id=第一个前端程序>第一个前端程序</h3><h4 id=1第一步使用笔记本编写代码>1. 第一步：使用笔记本，编写代码</h4><a href=https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/>Read more →</a></article><article class=blog-post><header><h2 class=blog-post-title dir=auto><a href=https://ricwyc-max.github.io/posts/2026/01/%E6%90%9C%E7%B4%A2%E6%96%87%E7%AB%A0/>🔍 搜索文章</a></h2><p class=blog-post-meta><time datetime=2026-01-25T00:00:00Z>2026年01月25日</time> by Eric_wu in
-<span class="fas fa-folder" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/categories/%E9%9A%8F%E7%AC%94/ rel="category tag">随笔</a>
-<span class="fas fa-tag" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/tags/%E6%90%9C%E7%B4%A2/ rel=tag>搜索</a></p></header><h2 id=-如何搜索文章>🔍 如何搜索文章？</h2><h3 id=-在电脑上搜索>📱 在电脑上搜索</h3><a href=https://ricwyc-max.github.io/posts/2026/01/%E6%90%9C%E7%B4%A2%E6%96%87%E7%AB%A0/>Read more →</a></article><article class=blog-post><header><h2 class=blog-post-title dir=auto><a href=https://ricwyc-max.github.io/posts/2026/01/%E4%BB%8B%E7%BB%8D%E4%B8%8B%E6%88%91%E8%87%AA%E5%B7%B1/>介绍下我自己</a></h2><p class=blog-post-meta><time datetime=2026-01-25T00:00:00Z>2026年01月25日</time> by Eric_wu in
-<span class="fas fa-folder" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/categories/%E9%9A%8F%E7%AC%94/ rel="category tag">随笔</a>
-<span class="fas fa-tag" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/tags/%E6%A2%A6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%9C%B0%E6%96%B9/ rel=tag>梦开始的地方</a></p></header><h3 id=你好我是eric>你好！我是[Eric]</h3><h3 id=基本信息>基本信息</h3><ul><li><strong>学校</strong>：河海大学</li><li><strong>专业</strong>：智能建造专业（主修） + 生成式人工智能（辅修）</li><li><strong>年级</strong>：大三</li></ul><a href=https://ricwyc-max.github.io/posts/2026/01/%E4%BB%8B%E7%BB%8D%E4%B8%8B%E6%88%91%E8%87%AA%E5%B7%B1/>Read more →</a></article><article class=blog-post><header><h2 class=blog-post-title dir=auto><a href=https://ricwyc-max.github.io/posts/2018/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/>我的第一个博客</a></h2><p class=blog-post-meta><time datetime=2018-09-18T00:00:00Z>2018年09月18日</time> by 我是作者 in
-<span class="fas fa-folder" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/categories/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%86%E7%B1%BB/ rel="category tag">我的博客分类</a>
-<span class="fas fa-tag" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/tags/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%A0%87%E7%AD%BE/ rel=tag>我的博客标签</a></p></header><p>这里是Markdown 正文</p><a href=https://ricwyc-max.github.io/posts/2018/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/>Read more →</a></article></div><aside class="col-sm-3 ml-auto blog-sidebar"><section class="sidebar-module sidebar-module-inset"><h4>About</h4><p dir=auto><pre><code>👋 关于 Eric Wu
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta property="og:url" content="https://ricwyc-max.github.io/">
+  <meta property="og:site_name" content="Eric Wu | 河海大学 智能建造 & AI">
+  <meta property="og:title" content="Eric Wu | 河海大学 智能建造 & AI">
+  <meta property="og:description" content="Eric Wu | 河海大学智能建造专业大三学生 | 主修智能建造，辅修生成式AI | 研究方向：图像传感、计算机视觉">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Eric Wu | 河海大学 智能建造 & AI">
+  <meta name="twitter:description" content="Eric Wu | 河海大学智能建造专业大三学生 | 主修智能建造，辅修生成式AI | 研究方向：图像传感、计算机视觉">
+<meta name="generator" content="Hugo 0.154.5">
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Blog",
+  "headline": "Eric Wu | 河海大学 智能建造 \u0026 AI",
+  "url" : "https://ricwyc-max.github.io/",
+  "author": {
+    "@type": "Person",
+    "name": "Eric Wu - 河海大学智能建造专业"
+  },
+  "dateModified": "2026-02-24T00:00:00+00:00",
+  "keywords": "a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses, html, 前端, 我的博客分类, 我的项目, 笔记, 索引, 论文精读, 随笔, html, 前端, 我的博客标签, 我的项目, 搜索, 梦开始的地方, 笔记, 索引, 论文, 论文精读",
+  "description":"Eric Wu | 河海大学智能建造专业大三学生 | 主修智能建造，辅修生成式AI | 研究方向：图像传感、计算机视觉"
+}
+</script>
+
+
+    <link rel="canonical" href="https://ricwyc-max.github.io/">
+
+    <title>Eric Wu | 河海大学 智能建造 &amp; AI</title>
+
+    
+    <!-- combined, minified CSS -->
+    
+    <link href="https://ricwyc-max.github.io/css/style.0b72f41a0f22d687d912a8e7c945fc14c7a36daee062380f9fae9958e7d17da6.css" rel="stylesheet">
+    
+
+    <!-- minified Font Awesome for SVG icons -->
+    
+    <script defer src="https://ricwyc-max.github.io/js/fontawesome.min.a290d22177f491b8a83b0ee7eb739224c57ab052d8fab69d8f52aab860e42027.js" integrity="sha256-opDSIXf0kbioOw7n63OSJMV6sFLY&#43;radj1KquGDkICc=" crossorigin="anonymous"></script>
+
+    <!-- RSS 2.0 feed -->
+    <link rel="alternate" type="application/rss+xml" href="https://ricwyc-max.github.io/index.xml" title="Eric Wu | 河海大学 智能建造 & AI" />
+    
+
+    <link rel="icon" href="https://ricwyc-max.github.io/favicon.ico">
+
+<style>
+
+   
+  .blog-title img {
+    border-radius: 15px;    
+    height: 100px;          
+    flex-shrink: 0;
+  }
+</style>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/toolbar/prism-toolbar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/toolbar/prism-toolbar.min.css">
+
+<style>
+   
+  div.highlight,
+  pre[class*="language-"] {
+    position: relative;
+  }
+  .copy-btn {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    font-size: 12px;
+    padding: 2px 6px;
+    color: #fff;
+    background: #555;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .2s;
+    z-index: 10;
+  }
+  div.highlight:hover .copy-btn,
+  pre:hover .copy-btn {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  (function () {
+    
+    function insertCopy() {
+      document.querySelectorAll('pre[class*="language-"], div.highlight pre').forEach(function (pre) {
+        if (pre.querySelector('.copy-btn')) return;          
+        const btn = document.createElement('button');
+        btn.textContent = 'Copy';
+        btn.className = 'copy-btn';
+        btn.addEventListener('click', function () {
+          const code = pre.querySelector('code').innerText;
+          navigator.clipboard.writeText(code);
+          btn.textContent = 'Copied!';
+          setTimeout(() => btn.textContent = 'Copy', 1200);
+        });
+        pre.appendChild(btn);
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', insertCopy);
+    } else {
+      insertCopy();          
+    }
+
+    
+    window.addEventListener('prism-highlighted', insertCopy);
+  })();
+</script>
+
+
+<style>
+   
+  .blog-post {
+    background: #e3f2fd;                
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 30px 50px rgba(0,0,0,.5);  
+    transition: background .3s, box-shadow .3s;  
+  }
+
+   
+  .blog-post:hover {
+    background: #42a5f5;    
+    box-shadow: 0 40px 60px rgba(0,0,0,.7);
+  }
+
+   
+  .blog-post:hover p,
+  .blog-post:hover li,
+  .blog-post:hover blockquote {
+    color: #0d1b2a;
+  }
+
+   
+  .blog-post:hover a {
+    color: #f9a825 !important;    
+  }
+  
+</style>
+
+<style>
+   
+  .blog-post-meta a:hover,
+  .meta-terms a:hover {
+    color: #f9a825 !important;    
+  }
+</style>
+
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link active" href="https://ricwyc-max.github.io/">Home</a>
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/" title="">🏠 首页</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/about/introduce-myself" title="">👤 关于我</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/projects/" title="">🚀 项目经历</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/notebook/" title="">📓 学习笔记</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/paper/" title="">📰 论文精读</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/posts/" title="">📚 所有文章</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/" title="">✍️ 我的博客</a>
+          
+          
+          <a class="nav-link" href="https://github.com/ricwyc-max" title="">🐱 GitHub</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/search/search" title="">🔍 搜索文章</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title" dir="auto">
+  		<a href="https://ricwyc-max.github.io/" rel="home">
+    			<img src="https://ricwyc-max.github.io/images/logo.jpg" alt="logo" height="80" style="vertical-align: middle; margin-right: 0.5rem;">
+    			Eric Wu | 河海大学 智能建造 & AI
+  		</a>
+	</h1>
+        <p class="lead blog-description" dir="auto">Eric Wu | 河海大学智能建造专业大三学生 | 主修智能建造，辅修生成式AI | 研究方向：图像传感、计算机视觉</p>
+      </div>
+    </header>
+    
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/">前端工具的选择与安装</a></h2>
+    <p class="blog-post-meta"><time datetime="2026-02-24T00:00:00Z">2026年02月24日</time> by Eric_wu in 
+<span class="fas fa-folder" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/" rel="category tag">笔记</a>, <a href="https://ricwyc-max.github.io/categories/html/" rel="category tag">HTML</a>, <a href="https://ricwyc-max.github.io/categories/%E5%89%8D%E7%AB%AF/" rel="category tag">前端</a>
+
+
+<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a>, <a href="https://ricwyc-max.github.io/tags/html/" rel="tag">HTML</a>
+
+</p>
+  </header>
+  <h3 id="前端工具的选择与安装">前端工具的选择与安装</h3>
+<h4 id="1前端常见开发者工具">1.	前端常见开发者工具</h4>
+  <a href='https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/">《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》论文精读</a></h2>
+    <p class="blog-post-meta"><time datetime="2026-01-27T00:00:00Z">2026年01月27日</time> by Eric_wu in 
+<span class="fas fa-folder" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/" rel="category tag">笔记</a>, <a href="https://ricwyc-max.github.io/categories/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses/" rel="category tag">A-Versatile-Camera-Calibration-Techniaue-for-High-Accuracy-3D-Machine-Vision-Metrology-Using-Off-the-shelf-TV-Cameras-and-Lenses</a>, <a href="https://ricwyc-max.github.io/categories/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/" rel="category tag">论文精读</a>
+
+
+<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/tags/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/" rel="tag">论文精读</a>, <a href="https://ricwyc-max.github.io/tags/%E8%AE%BA%E6%96%87/" rel="tag">论文</a>
+
+</p>
+  </header>
+  <h3 id="a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses">《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》</h3>
+<h3 id="一个使用现成的tv摄像机和柔性焦距透镜组的用于高精确率3d机器视觉度量的多功能相机标定技术">一个使用现成的TV摄像机和柔性焦距透镜组的用于高精确率3D机器视觉度量的多功能相机标定技术</h3>
+  <a href='https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/">第一个前端程序</a></h2>
+    <p class="blog-post-meta"><time datetime="2026-01-27T00:00:00Z">2026年01月27日</time> by Eric_wu in 
+<span class="fas fa-folder" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/" rel="category tag">笔记</a>, <a href="https://ricwyc-max.github.io/categories/html/" rel="category tag">HTML</a>, <a href="https://ricwyc-max.github.io/categories/%E5%89%8D%E7%AB%AF/" rel="category tag">前端</a>
+
+
+<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a>, <a href="https://ricwyc-max.github.io/tags/html/" rel="tag">HTML</a>
+
+</p>
+  </header>
+  <h3 id="第一个前端程序">第一个前端程序</h3>
+<h4 id="1第一步使用笔记本编写代码">1.	第一步：使用笔记本，编写代码</h4>
+  <a href='https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://ricwyc-max.github.io/posts/2026/01/%E6%90%9C%E7%B4%A2%E6%96%87%E7%AB%A0/">🔍 搜索文章</a></h2>
+    <p class="blog-post-meta"><time datetime="2026-01-25T00:00:00Z">2026年01月25日</time> by Eric_wu in 
+<span class="fas fa-folder" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/categories/%E9%9A%8F%E7%AC%94/" rel="category tag">随笔</a>
+
+
+<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/tags/%E6%90%9C%E7%B4%A2/" rel="tag">搜索</a>
+
+</p>
+  </header>
+  <h2 id="-如何搜索文章">🔍 如何搜索文章？</h2>
+<h3 id="-在电脑上搜索">📱 在电脑上搜索</h3>
+  <a href='https://ricwyc-max.github.io/posts/2026/01/%E6%90%9C%E7%B4%A2%E6%96%87%E7%AB%A0/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://ricwyc-max.github.io/posts/2026/01/%E4%BB%8B%E7%BB%8D%E4%B8%8B%E6%88%91%E8%87%AA%E5%B7%B1/">介绍下我自己</a></h2>
+    <p class="blog-post-meta"><time datetime="2026-01-25T00:00:00Z">2026年01月25日</time> by Eric_wu in 
+<span class="fas fa-folder" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/categories/%E9%9A%8F%E7%AC%94/" rel="category tag">随笔</a>
+
+
+<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/tags/%E6%A2%A6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%9C%B0%E6%96%B9/" rel="tag">梦开始的地方</a>
+
+</p>
+  </header>
+  <h3 id="你好我是eric">你好！我是[Eric]</h3>
+<h3 id="基本信息">基本信息</h3>
+<ul>
+<li><strong>学校</strong>：河海大学</li>
+<li><strong>专业</strong>：智能建造专业（主修） + 生成式人工智能（辅修）</li>
+<li><strong>年级</strong>：大三</li>
+</ul>
+  <a href='https://ricwyc-max.github.io/posts/2026/01/%E4%BB%8B%E7%BB%8D%E4%B8%8B%E6%88%91%E8%87%AA%E5%B7%B1/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://ricwyc-max.github.io/posts/2018/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/">我的第一个博客</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-09-18T00:00:00Z">2018年09月18日</time> by 我是作者 in 
+<span class="fas fa-folder" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/categories/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%86%E7%B1%BB/" rel="category tag">我的博客分类</a>
+
+
+<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="https://ricwyc-max.github.io/tags/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%A0%87%E7%AD%BE/" rel="tag">我的博客标签</a>
+
+</p>
+  </header>
+  <p>这里是Markdown 正文</p>
+  <a href='https://ricwyc-max.github.io/posts/2018/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+  <section class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p dir="auto"><pre><code>👋 关于 Eric Wu
 
 🎓 教育背景
 - 河海大学 智能建造专业（大三）
@@ -40,4 +397,68 @@ Eric Wu | 河海大学 智能建造 & AI</a></h1><p class="lead blog-description
 - 嵌入式系统
 - 工程自动化
 - 机械智能化
-</code></pre></p></section><section class=sidebar-module><h4>Recent Posts</h4><ol class=list-unstyled><li><a href=https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/>前端工具的选择与安装</a></li><li><a href=https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/>《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》论文精读</a></li><li><a href=https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/>第一个前端程序</a></li><li><a href=https://ricwyc-max.github.io/posts/2026/01/%E6%90%9C%E7%B4%A2%E6%96%87%E7%AB%A0/>🔍 搜索文章</a></li><li><a href=https://ricwyc-max.github.io/posts/2026/01/%E4%BB%8B%E7%BB%8D%E4%B8%8B%E6%88%91%E8%87%AA%E5%B7%B1/>介绍下我自己</a></li></ol></section><section class=sidebar-module><h4>Links</h4><ol class=list-unstyled><li><a href=mailto:1340748652@qq.com>📧 联系邮箱</a></li><li><a href=https://linkedin.com/in/%e4%bd%a0%e7%9a%84%e7%94%a8%e6%88%b7%e5%90%8d>💼 LinkedIn</a></li><li><a href=https://ricwyc-max.github.io/>📖 个人博客</a></li><li><a href=https://github.com/ricwyc-max>⭐ GitHub</a></li></ol></section></aside></div></div><footer class=blog-footer><p dir=auto>Blog template created by <a href=https://twitter.com/mdo>@mdo</a>, ported to Hugo by <a href=https://twitter.com/mralanorth>@mralanorth</a>.</p><p><a href=#>Back to top</a></p></footer></body></html>
+</code></pre>
+</p>
+  </section>
+  
+
+  
+        <section class="sidebar-module">
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+
+
+<li><a href="https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/">前端工具的选择与安装</a></li>
+
+<li><a href="https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/">《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》论文精读</a></li>
+
+<li><a href="https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/">第一个前端程序</a></li>
+
+<li><a href="https://ricwyc-max.github.io/posts/2026/01/%E6%90%9C%E7%B4%A2%E6%96%87%E7%AB%A0/">🔍 搜索文章</a></li>
+
+<li><a href="https://ricwyc-max.github.io/posts/2026/01/%E4%BB%8B%E7%BB%8D%E4%B8%8B%E6%88%91%E8%87%AA%E5%B7%B1/">介绍下我自己</a></li>
+
+    </ol>
+  </section>
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="mailto:1340748652@qq.com">📧 联系邮箱</a></li>
+      
+      <li><a href="https://linkedin.com/in/%e4%bd%a0%e7%9a%84%e7%94%a8%e6%88%b7%e5%90%8d">💼 LinkedIn</a></li>
+      
+      <li><a href="https://ricwyc-max.github.io/">📖 个人博客</a></li>
+      
+      <li><a href="https://github.com/ricwyc-max">⭐ GitHub</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p dir="auto">
+      
+      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>
