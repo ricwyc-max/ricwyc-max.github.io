@@ -1,7 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>笔记 on Eric Wu | 河海大学 智能建造 &amp; AI</title><link>https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/</link><description>Recent content in 笔记 on Eric Wu | 河海大学 智能建造 &amp; AI</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>前端工具的选择与安装</title><link>https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/</link><pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/</guid><description>&lt;h3 id="前端工具的选择与安装"&gt;前端工具的选择与安装&lt;/h3&gt;
-&lt;h4 id="1前端常见开发者工具"&gt;1.	前端常见开发者工具&lt;/h4&gt;</description></item><item><title>《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》论文精读</title><link>https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</guid><description>&lt;h3 id="a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses"&gt;《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》&lt;/h3&gt;
-&lt;h3 id="一个使用现成的tv摄像机和柔性焦距透镜组的用于高精确率3d机器视觉度量的多功能相机标定技术"&gt;一个使用现成的TV摄像机和柔性焦距透镜组的用于高精确率3D机器视觉度量的多功能相机标定技术&lt;/h3&gt;</description></item><item><title>笔记索引页</title><link>https://ricwyc-max.github.io/notebook/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/notebook/</guid><description>&lt;h3 id="笔记索引页"&gt;📖笔记索引页&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;引导读者通往各大笔记blog的大厅&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>第一个前端程序</title><link>https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h3 id="第一个前端程序"&gt;第一个前端程序&lt;/h3&gt;
-&lt;h4 id="1第一步使用笔记本编写代码"&gt;1.	第一步：使用笔记本，编写代码&lt;/h4&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>笔记 on Eric Wu | 河海大学 智能建造 &amp; AI</title>
+    <link>https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 笔记 on Eric Wu | 河海大学 智能建造 &amp; AI</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前端工具的选择与安装</title>
+      <link>https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/</guid>
+      <description>&lt;h3 id=&#34;前端工具的选择与安装&#34;&gt;前端工具的选择与安装&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1前端常见开发者工具&#34;&gt;1.&#x9;前端常见开发者工具&lt;/h4&gt;</description>
+    </item>
+    <item>
+      <title>《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》论文精读</title>
+      <link>https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</guid>
+      <description>&lt;h3 id=&#34;a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses&#34;&gt;《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》&lt;/h3&gt;&#xA;&lt;h3 id=&#34;一个使用现成的tv摄像机和柔性焦距透镜组的用于高精确率3d机器视觉度量的多功能相机标定技术&#34;&gt;一个使用现成的TV摄像机和柔性焦距透镜组的用于高精确率3D机器视觉度量的多功能相机标定技术&lt;/h3&gt;</description>
+    </item>
+    <item>
+      <title>笔记索引页</title>
+      <link>https://ricwyc-max.github.io/notebook/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ricwyc-max.github.io/notebook/</guid>
+      <description>&lt;h3 id=&#34;笔记索引页&#34;&gt;📖笔记索引页&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;引导读者通往各大笔记blog的大厅&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>第一个前端程序</title>
+      <link>https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid>
+      <description>&lt;h3 id=&#34;第一个前端程序&#34;&gt;第一个前端程序&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1第一步使用笔记本编写代码&#34;&gt;1.&#x9;第一步：使用笔记本，编写代码&lt;/h4&gt;</description>
+    </item>
+  </channel>
+</rss>
