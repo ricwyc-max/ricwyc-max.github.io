@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>我的项目 on Eric Wu | 河海大学 智能建造 &amp; AI</title>
-    <link>https://ricwyc-max.github.io/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/</link>
-    <description>Recent content in 我的项目 on Eric Wu | 河海大学 智能建造 &amp; AI</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ricwyc-max.github.io/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>我的项目索引页</title>
-      <link>https://ricwyc-max.github.io/projects/</link>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://ricwyc-max.github.io/projects/</guid>
-      <description>&lt;h3 id=&#34;我的项目索引页&#34;&gt;💻我的项目索引页&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;引导读者通往各大项目blog的大厅&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>我的项目 on Eric Wu | 河海大学 智能建造 &amp; AI</title><link>https://ricwyc-max.github.io/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/</link><description>Recent content in 我的项目 on Eric Wu | 河海大学 智能建造 &amp; AI</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ricwyc-max.github.io/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>我的项目索引页</title><link>https://ricwyc-max.github.io/projects/</link><pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/projects/</guid><description>&lt;h3 id="我的项目索引页"&gt;💻我的项目索引页&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;引导读者通往各大项目blog的大厅&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
