@@ -6,8 +6,15 @@
     <description>Recent content in 笔记 on Eric Wu | 河海大学 智能建造 &amp; AI</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ricwyc-max.github.io/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何使用GIT进行团队协作</title>
+      <link>https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/</guid>
+      <description>&lt;h3 id=&#34;如何使用git进行团队协作&#34;&gt;如何使用GIT进行团队协作&lt;/h3&gt;&#xA;&lt;h2 id=&#34;fork是什么&#34;&gt;Fork是什么？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fork = 复制别人的仓库到你的账号下&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>笔记索引页</title>
       <link>https://ricwyc-max.github.io/notebook/</link>
