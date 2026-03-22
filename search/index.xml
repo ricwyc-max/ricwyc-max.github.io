@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Searches on Eric Wu | 河海大学 智能建造 &amp; AI</title>
-    <link>http://localhost:1313/search/</link>
-    <description>Recent content in Searches on Eric Wu | 河海大学 智能建造 &amp; AI</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/search/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>🔍 搜索文章</title>
-      <link>http://localhost:1313/search/search/</link>
-      <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/search/</guid>
-      <description>&lt;h2 id=&#34;-如何搜索文章&#34;&gt;🔍 如何搜索文章？&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-在电脑上搜索&#34;&gt;📱 在电脑上搜索&lt;/h3&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Searches on Eric Wu | 河海大学 智能建造 &amp; AI</title><link>https://ricwyc-max.github.io/search/</link><description>Recent content in Searches on Eric Wu | 河海大学 智能建造 &amp; AI</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ricwyc-max.github.io/search/index.xml" rel="self" type="application/rss+xml"/><item><title>🔍 搜索文章</title><link>https://ricwyc-max.github.io/search/search/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/search/search/</guid><description>&lt;h2 id="-如何搜索文章"&gt;🔍 如何搜索文章？&lt;/h2&gt;
+&lt;h3 id="-在电脑上搜索"&gt;📱 在电脑上搜索&lt;/h3&gt;</description></item></channel></rss>

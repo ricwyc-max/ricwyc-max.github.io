@@ -1,379 +1,47 @@
-<!DOCTYPE html>
-<html lang="en" >
-
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta property="og:url" content="http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/">
-  <meta property="og:site_name" content="Eric Wu | 河海大学 智能建造 & AI">
-  <meta property="og:title" content="如何使用GIT进行团队协作">
-  <meta property="og:description" content="如何使用GIT进行团队协作">
-  <meta property="og:locale" content="zh_cn">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-03-08T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-03-08T00:00:00+00:00">
-    <meta property="article:tag" content="Git">
-    <meta property="article:tag" content="团队协作">
-    <meta property="article:tag" content="版本管理软件">
-    <meta property="article:tag" content="笔记">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="如何使用GIT进行团队协作">
-  <meta name="twitter:description" content="如何使用GIT进行团队协作">
-<meta name="generator" content="Hugo 0.154.5">
-
-
-    
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "BlogPosting",
-  "headline": "如何使用GIT进行团队协作",
-  "url": "http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/",
-  "wordCount": "200",
-  "datePublished": "2026-03-08T00:00:00+00:00",
-  "dateModified": "2026-03-08T00:00:00+00:00",
-  "author": {
-    "@type": "Person",
-    "name": "Eric_wu"
-  },
-  "keywords": "笔记, git, 团队协作, 版本管理软件",
-  "description": "如何使用GIT进行团队协作"
-}
-</script>
-
-
-
-    <link rel="canonical" href="http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/">
-
-    <title>如何使用GIT进行团队协作 | Eric Wu | 河海大学 智能建造 &amp; AI</title>
-
-    
-    <!-- combined, minified CSS -->
-    
-    <link href="http://localhost:1313/css/style.0b72f41a0f22d687d912a8e7c945fc14c7a36daee062380f9fae9958e7d17da6.css" rel="stylesheet">
-    
-
-    <!-- minified Font Awesome for SVG icons -->
-    
-    <script defer src="http://localhost:1313/js/fontawesome.min.a290d22177f491b8a83b0ee7eb739224c57ab052d8fab69d8f52aab860e42027.js" integrity="sha256-opDSIXf0kbioOw7n63OSJMV6sFLY&#43;radj1KquGDkICc=" crossorigin="anonymous"></script>
-
-    <!-- RSS 2.0 feed -->
-    
-
-    <link rel="icon" href="http://localhost:1313/favicon.ico">
-
-<style>
-
-   
-  .blog-title img {
-    border-radius: 15px;    
-    height: 100px;          
-    flex-shrink: 0;
-  }
-</style>
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/toolbar/prism-toolbar.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/toolbar/prism-toolbar.min.css">
-
-<style>
-   
-  div.highlight,
-  pre[class*="language-"] {
-    position: relative;
-  }
-  .copy-btn {
-    position: absolute;
-    top: 6px;
-    right: 8px;
-    font-size: 12px;
-    padding: 2px 6px;
-    color: #fff;
-    background: #555;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity .2s;
-    z-index: 10;
-  }
-  div.highlight:hover .copy-btn,
-  pre:hover .copy-btn {
-    opacity: 1;
-  }
-</style>
-
-<script>
-  (function () {
-    
-    function insertCopy() {
-      document.querySelectorAll('pre[class*="language-"], div.highlight pre').forEach(function (pre) {
-        if (pre.querySelector('.copy-btn')) return;          
-        const btn = document.createElement('button');
-        btn.textContent = 'Copy';
-        btn.className = 'copy-btn';
-        btn.addEventListener('click', function () {
-          const code = pre.querySelector('code').innerText;
-          navigator.clipboard.writeText(code);
-          btn.textContent = 'Copied!';
-          setTimeout(() => btn.textContent = 'Copy', 1200);
-        });
-        pre.appendChild(btn);
-      });
-    }
-
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', insertCopy);
-    } else {
-      insertCopy();          
-    }
-
-    
-    window.addEventListener('prism-highlighted', insertCopy);
-  })();
-</script>
-
-
-<style>
-   
-  .blog-post {
-    background: #e3f2fd;                
-    border-radius: 12px;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 30px 50px rgba(0,0,0,.5);  
-    transition: background .3s, box-shadow .3s;  
-  }
-
-   
-  .blog-post:hover {
-    background: #42a5f5;    
-    box-shadow: 0 40px 60px rgba(0,0,0,.7);
-  }
-
-   
-  .blog-post:hover p,
-  .blog-post:hover li,
-  .blog-post:hover blockquote {
-    color: #0d1b2a;
-  }
-
-   
-  .blog-post:hover a {
-    color: #f9a825 !important;    
-  }
-  
-</style>
-
-<style>
-   
-  .blog-post-meta a:hover,
-  .meta-terms a:hover {
-    color: #f9a825 !important;    
-  }
-</style>
-
-
-  </head>
-
-  <body>
-
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="http://localhost:1313/">Home</a>
-          
-          <a class="nav-link" href="http://localhost:1313/" title="">🏠 首页</a>
-          
-          
-          <a class="nav-link" href="http://localhost:1313/about/introduce-myself" title="">👤 关于我</a>
-          
-          
-          <a class="nav-link" href="http://localhost:1313/projects/" title="">🚀 项目经历</a>
-          
-          
-          <a class="nav-link" href="http://localhost:1313/notebook/" title="">📓 学习笔记</a>
-          
-          
-          <a class="nav-link" href="http://localhost:1313/paper/" title="">📰 论文精读</a>
-          
-          
-          <a class="nav-link" href="http://localhost:1313/posts/" title="">📚 所有文章</a>
-          
-          
-          <a class="nav-link" href="https://ricwyc-max.github.io/" title="">✍️ 我的博客</a>
-          
-          
-          <a class="nav-link" href="https://github.com/ricwyc-max" title="">🐱 GitHub</a>
-          
-          
-          <a class="nav-link" href="http://localhost:1313/search/search" title="">🔍 搜索文章</a>
-          
-        </nav>
-      </div>
-    </div>
-    
-
-    
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title" dir="auto">
-  		<a href="http://localhost:1313/" rel="home">
-    			<img src="http://localhost:1313/images/logo.jpg" alt="logo" height="80" style="vertical-align: middle; margin-right: 0.5rem;">
-    			Eric Wu | 河海大学 智能建造 & AI
-  		</a>
-	</h1>
-        <p class="lead blog-description" dir="auto">Eric Wu | 河海大学智能建造专业大三学生 | 主修智能建造，辅修生成式AI | 研究方向：图像传感、计算机视觉</p>
-      </div>
-    </header>
-    
-    
-
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
-
-          
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title" dir="auto"><a href="http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/">如何使用GIT进行团队协作</a></h2>
-    <p class="blog-post-meta">
-<time datetime="2026-03-08T00:00:00Z">2026年03月08日</time>
- in 
-<span class="fas fa-folder" aria-hidden="true"></span>&nbsp;<a href="http://localhost:1313/categories/git/" rel="category tag">git</a>, <a href="http://localhost:1313/categories/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/" rel="category tag">团队协作</a>, <a href="http://localhost:1313/categories/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/" rel="category tag">版本管理软件</a>, <a href="http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/" rel="category tag">笔记</a>
-
-
-<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="http://localhost:1313/tags/git/" rel="tag">git</a>, <a href="http://localhost:1313/tags/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/" rel="tag">团队协作</a>, <a href="http://localhost:1313/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/" rel="tag">版本管理软件</a>, <a href="http://localhost:1313/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a>
-
-</p>
-  </header>
-  <h3 id="如何使用git进行团队协作">如何使用GIT进行团队协作</h3>
-<h2 id="fork是什么">Fork是什么？</h2>
-<p><strong>Fork = 复制别人的仓库到你的账号下</strong></p>
-<pre tabindex="0"><code>原仓库（别人的）           你的Fork（你的）
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta property="og:url" content="https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/"><meta property="og:site_name" content="Eric Wu | 河海大学 智能建造 & AI"><meta property="og:title" content="如何使用GIT进行团队协作"><meta property="og:description" content="如何使用GIT进行团队协作"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2026-03-08T00:00:00+00:00"><meta property="article:modified_time" content="2026-03-08T00:00:00+00:00"><meta property="article:tag" content="Git"><meta property="article:tag" content="团队协作"><meta property="article:tag" content="版本管理软件"><meta property="article:tag" content="笔记"><meta name=twitter:card content="summary"><meta name=twitter:title content="如何使用GIT进行团队协作"><meta name=twitter:description content="如何使用GIT进行团队协作"><meta name=generator content="Hugo 0.154.5"><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"如何使用GIT进行团队协作","url":"https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/","wordCount":"200","datePublished":"2026-03-08T00:00:00+00:00","dateModified":"2026-03-08T00:00:00+00:00","author":{"@type":"Person","name":"Eric_wu"},"keywords":"笔记, git, 团队协作, 版本管理软件","description":"如何使用GIT进行团队协作"}</script><link rel=canonical href=https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/><title>如何使用GIT进行团队协作 | Eric Wu | 河海大学 智能建造 & AI</title><link href=https://ricwyc-max.github.io/css/style.0b72f41a0f22d687d912a8e7c945fc14c7a36daee062380f9fae9958e7d17da6.css rel=stylesheet><script defer src=https://ricwyc-max.github.io/js/fontawesome.min.a290d22177f491b8a83b0ee7eb739224c57ab052d8fab69d8f52aab860e42027.js integrity="sha256-opDSIXf0kbioOw7n63OSJMV6sFLY+radj1KquGDkICc=" crossorigin=anonymous></script><link rel=icon href=https://ricwyc-max.github.io/favicon.ico><style>.blog-title img{border-radius:15px;height:100px;flex-shrink:0}</style><script src=https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/toolbar/prism-toolbar.min.js></script><script src=https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/toolbar/prism-toolbar.min.css><style>div.highlight,pre[class*=language-]{position:relative}.copy-btn{position:absolute;top:6px;right:8px;font-size:12px;padding:2px 6px;color:#fff;background:#555;border:none;border-radius:3px;cursor:pointer;opacity:0;transition:opacity .2s;z-index:10}div.highlight:hover .copy-btn,pre:hover .copy-btn{opacity:1}</style><script>(function(){function e(){document.querySelectorAll('pre[class*="language-"], div.highlight pre').forEach(function(e){if(e.querySelector(".copy-btn"))return;const t=document.createElement("button");t.textContent="Copy",t.className="copy-btn",t.addEventListener("click",function(){const n=e.querySelector("code").innerText;navigator.clipboard.writeText(n),t.textContent="Copied!",setTimeout(()=>t.textContent="Copy",1200)}),e.appendChild(t)})}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",e):e(),window.addEventListener("prism-highlighted",e)})()</script><style>.blog-post{background:#e3f2fd;border-radius:12px;padding:1.5rem;margin-bottom:2rem;box-shadow:0 30px 50px rgba(0,0,0,.5);transition:background .3s,box-shadow .3s}.blog-post:hover{background:#42a5f5;box-shadow:0 40px 60px rgba(0,0,0,.7)}.blog-post:hover p,.blog-post:hover li,.blog-post:hover blockquote{color:#0d1b2a}.blog-post:hover a{color:#f9a825!important}</style><style>.blog-post-meta a:hover,.meta-terms a:hover{color:#f9a825!important}</style></head><body><div class=blog-masthead><div class=container><nav class="nav blog-nav"><a class=nav-link href=https://ricwyc-max.github.io/>Home</a>
+<a class=nav-link href=https://ricwyc-max.github.io/ title>🏠 首页</a>
+<a class=nav-link href=https://ricwyc-max.github.io/about/introduce-myself title>👤 关于我</a>
+<a class=nav-link href=https://ricwyc-max.github.io/projects/ title>🚀 项目经历</a>
+<a class=nav-link href=https://ricwyc-max.github.io/notebook/ title>📓 学习笔记</a>
+<a class=nav-link href=https://ricwyc-max.github.io/paper/ title>📰 论文精读</a>
+<a class=nav-link href=https://ricwyc-max.github.io/posts/ title>📚 所有文章</a>
+<a class=nav-link href=https://ricwyc-max.github.io/ title>✍️ 我的博客</a>
+<a class=nav-link href=https://github.com/ricwyc-max title>🐱 GitHub</a>
+<a class=nav-link href=https://ricwyc-max.github.io/search/search title>🔍 搜索文章</a></nav></div></div><header class=blog-header><div class=container><h1 class=blog-title dir=auto><a href=https://ricwyc-max.github.io/ rel=home><img src=https://ricwyc-max.github.io/images/logo.jpg alt=logo height=80 style=vertical-align:middle;margin-right:.5rem>
+Eric Wu | 河海大学 智能建造 & AI</a></h1><p class="lead blog-description" dir=auto>Eric Wu | 河海大学智能建造专业大三学生 | 主修智能建造，辅修生成式AI | 研究方向：图像传感、计算机视觉</p></div></header><div class=container><div class=row><div class="col-sm-8 blog-main"><article class=blog-post><header><h2 class=blog-post-title dir=auto><a href=https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/>如何使用GIT进行团队协作</a></h2><p class=blog-post-meta><time datetime=2026-03-08T00:00:00Z>2026年03月08日</time>
+in
+<span class="fas fa-folder" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/categories/git/ rel="category tag">git</a>, <a href=https://ricwyc-max.github.io/categories/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/ rel="category tag">团队协作</a>, <a href=https://ricwyc-max.github.io/categories/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/ rel="category tag">版本管理软件</a>, <a href=https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/ rel="category tag">笔记</a>
+<span class="fas fa-tag" aria-hidden=true></span>&nbsp;<a href=https://ricwyc-max.github.io/tags/git/ rel=tag>git</a>, <a href=https://ricwyc-max.github.io/tags/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/ rel=tag>团队协作</a>, <a href=https://ricwyc-max.github.io/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/ rel=tag>版本管理软件</a>, <a href=https://ricwyc-max.github.io/tags/%E7%AC%94%E8%AE%B0/ rel=tag>笔记</a></p></header><h3 id=如何使用git进行团队协作>如何使用GIT进行团队协作</h3><h2 id=fork是什么>Fork是什么？</h2><p><strong>Fork = 复制别人的仓库到你的账号下</strong></p><pre tabindex=0><code>原仓库（别人的）           你的Fork（你的）
 github.com/原作者/项目  →  github.com/你的用户名/项目
      ↑                              ↓
    你只有读权限                  你有完全控制权
    不能修改                       随便修改
-</code></pre><p><strong>类比</strong>：就像把图书馆的书<strong>复印一份</strong>带回家，原书还在图书馆，复印件是你的，随便涂画。</p>
-<hr>
-<h2 id="完整流程从fork到创建pr">完整流程：从Fork到创建PR</h2>
-<h3 id="第一步fork仓库网页操作">第一步：Fork仓库（网页操作）</h3>
-<ol>
-<li>
-<p><strong>打开你想贡献的项目页面</strong></p>
-<ul>
-<li>例如：<code>https://github.com/原作者/项目名</code></li>
-</ul>
-</li>
-<li>
-<p><strong>点击右上角 &ldquo;Fork&rdquo; 按钮</strong></p>
-<pre tabindex="0"><code>[⭐ Star] [👁 Watch] [Fork]  ← 点这个
-</code></pre></li>
-<li>
-<p><strong>等待几秒钟</strong></p>
-<ul>
-<li>自动跳转到你的新页面：<code>https://github.com/你的用户名/项目名</code></li>
-<li>下面显示一行小字：&ldquo;forked from 原作者/项目名&rdquo;</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h3 id="第二步克隆你的fork到本地">第二步：克隆你的Fork到本地</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 注意：这是你的Fork地址，不是原仓库！</span>
-</span></span><span style="display:flex;"><span>git clone https://github.com/你的用户名/项目名.git
-</span></span><span style="display:flex;"><span>cd 项目名
-</span></span></code></pre></div><hr>
-<h3 id="第三步开发并提交">第三步：开发并提交</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 创建功能分支（不要直接在main上改）</span>
-</span></span><span style="display:flex;"><span>git checkout -b fix-typo
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># 修改文件...</span>
-</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;修复内容&#34;</span> &gt;&gt; README.md
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># 提交</span>
-</span></span><span style="display:flex;"><span>git add .
-</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;fix: 修复README错别字&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># 推送到你的Fork</span>
-</span></span><span style="display:flex;"><span>git push origin fix-typo
-</span></span></code></pre></div><hr>
-<h3 id="第四步创建pr关键步骤">第四步：创建PR（关键步骤）</h3>
-<p><strong>方法A：推送后自动提示（推荐）</strong></p>
-<pre tabindex="0"><code>推送完成后，打开GitHub页面：
+</code></pre><p><strong>类比</strong>：就像把图书馆的书<strong>复印一份</strong>带回家，原书还在图书馆，复印件是你的，随便涂画。</p><hr><h2 id=完整流程从fork到创建pr>完整流程：从Fork到创建PR</h2><h3 id=第一步fork仓库网页操作>第一步：Fork仓库（网页操作）</h3><ol><li><p><strong>打开你想贡献的项目页面</strong></p><ul><li>例如：<code>https://github.com/原作者/项目名</code></li></ul></li><li><p><strong>点击右上角 &ldquo;Fork&rdquo; 按钮</strong></p><pre tabindex=0><code>[⭐ Star] [👁 Watch] [Fork]  ← 点这个
+</code></pre></li><li><p><strong>等待几秒钟</strong></p><ul><li>自动跳转到你的新页面：<code>https://github.com/你的用户名/项目名</code></li><li>下面显示一行小字：&ldquo;forked from 原作者/项目名&rdquo;</li></ul></li></ol><hr><h3 id=第二步克隆你的fork到本地>第二步：克隆你的Fork到本地</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># 注意：这是你的Fork地址，不是原仓库！</span>
+</span></span><span style=display:flex><span>git clone https://github.com/你的用户名/项目名.git
+</span></span><span style=display:flex><span>cd 项目名
+</span></span></code></pre></div><hr><h3 id=第三步开发并提交>第三步：开发并提交</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># 创建功能分支（不要直接在main上改）</span>
+</span></span><span style=display:flex><span>git checkout -b fix-typo
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># 修改文件...</span>
+</span></span><span style=display:flex><span>echo <span style=color:#e6db74>&#34;修复内容&#34;</span> &gt;&gt; README.md
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># 提交</span>
+</span></span><span style=display:flex><span>git add .
+</span></span><span style=display:flex><span>git commit -m <span style=color:#e6db74>&#34;fix: 修复README错别字&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># 推送到你的Fork</span>
+</span></span><span style=display:flex><span>git push origin fix-typo
+</span></span></code></pre></div><hr><h3 id=第四步创建pr关键步骤>第四步：创建PR（关键步骤）</h3><p><strong>方法A：推送后自动提示（推荐）</strong></p><pre tabindex=0><code>推送完成后，打开GitHub页面：
 - 你的Fork页面会显示黄色提示条：
   &#34;fix-typo had recent pushes, compare &amp; pull request&#34;
 - 直接点击 &#34;Compare &amp; pull request&#34; 按钮
-</code></pre><p><strong>方法B：手动创建（如果没提示）</strong></p>
-<ol>
-<li>
-<p><strong>打开原仓库页面</strong>（不是你自己的Fork！）</p>
-<ul>
-<li><code>https://github.com/原作者/项目名</code></li>
-</ul>
-</li>
-<li>
-<p><strong>点击 &ldquo;Pull requests&rdquo; 标签</strong></p>
-</li>
-<li>
-<p><strong>点击绿色按钮 &ldquo;New pull request&rdquo;</strong></p>
-</li>
-<li>
-<p><strong>设置比较分支</strong></p>
-<pre tabindex="0"><code>base repository: 原作者/项目名    base: main
+</code></pre><p><strong>方法B：手动创建（如果没提示）</strong></p><ol><li><p><strong>打开原仓库页面</strong>（不是你自己的Fork！）</p><ul><li><code>https://github.com/原作者/项目名</code></li></ul></li><li><p><strong>点击 &ldquo;Pull requests&rdquo; 标签</strong></p></li><li><p><strong>点击绿色按钮 &ldquo;New pull request&rdquo;</strong></p></li><li><p><strong>设置比较分支</strong></p><pre tabindex=0><code>base repository: 原作者/项目名    base: main
 ←
 head repository: 你的用户名/项目名  compare: fix-typo
-</code></pre><p><strong>⚠️ 关键</strong>：点击 &ldquo;compare across forks&rdquo; 链接才能看到你的Fork！</p>
-</li>
-<li>
-<p><strong>填写PR信息</strong></p>
-<pre tabindex="0"><code>标题：fix: 修复README错别字
+</code></pre><p><strong>⚠️ 关键</strong>：点击 &ldquo;compare across forks&rdquo; 链接才能看到你的Fork！</p></li><li><p><strong>填写PR信息</strong></p><pre tabindex=0><code>标题：fix: 修复README错别字
 描述：详细说明修改内容...
-</code></pre></li>
-<li>
-<p><strong>点击 &ldquo;Create pull request&rdquo;</strong></p>
-</li>
-</ol>
-<hr>
-<h2 id="为什么你没看到创建按钮">为什么你没看到创建按钮？</h2>
-<table>
-  <thead>
-      <tr>
-          <th>原因</th>
-          <th>解决方法</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>在原仓库页面找</td>
-          <td>去原仓库的Pull requests标签页</td>
-      </tr>
-      <tr>
-          <td>没点击&quot;compare across forks&quot;</td>
-          <td>点击后才能看到你的Fork分支</td>
-      </tr>
-      <tr>
-          <td>还没push到远程</td>
-          <td>先<code>git push origin 分支名</code></td>
-      </tr>
-      <tr>
-          <td>在自己的Fork页面</td>
-          <td>要去原仓库页面发起PR</td>
-      </tr>
-  </tbody>
-</table>
-<hr>
-<h2 id="完整流程图">完整流程图</h2>
-<pre tabindex="0"><code>步骤1: Fork（网页）
+</code></pre></li><li><p><strong>点击 &ldquo;Create pull request&rdquo;</strong></p></li></ol><hr><h2 id=为什么你没看到创建按钮>为什么你没看到创建按钮？</h2><table><thead><tr><th>原因</th><th>解决方法</th></tr></thead><tbody><tr><td>在原仓库页面找</td><td>去原仓库的Pull requests标签页</td></tr><tr><td>没点击"compare across forks"</td><td>点击后才能看到你的Fork分支</td></tr><tr><td>还没push到远程</td><td>先<code>git push origin 分支名</code></td></tr><tr><td>在自己的Fork页面</td><td>要去原仓库页面发起PR</td></tr></tbody></table><hr><h2 id=完整流程图>完整流程图</h2><pre tabindex=0><code>步骤1: Fork（网页）
 原作者/项目 ──Fork按钮──→ 你的用户名/项目
 
 步骤2: 克隆（本地）
@@ -388,61 +56,9 @@ git add / commit / push origin feature
 打开原作者/项目页面 → Pull requests → New PR
 设置: 原作者/main ← 你的用户名/feature
 填写信息 → Create pull request
-</code></pre><hr>
-<h2 id="一句话总结">一句话总结</h2>
-<table>
-  <thead>
-      <tr>
-          <th>概念</th>
-          <th>作用</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Fork</strong></td>
-          <td>把别人的仓库复制到你的账号，获得修改权限</td>
-      </tr>
-      <tr>
-          <td><strong>创建PR</strong></td>
-          <td>在原仓库页面，选择你的Fork分支作为源，申请合并</td>
-      </tr>
-  </tbody>
-</table>
-<p><strong>关键记忆点</strong>：PR是<strong>跨仓库</strong>的比较，必须从原仓库页面发起，比较&quot;你的Fork分支&quot;和&quot;原仓库main分支&quot;。</p>
-
-  
-
-  
-  <hr>
-  <footer>
-
-  
-    <section>
-    <h4>Share</h4>
-    <nav class="nav sharing-icons">
-      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026%2f03%2f%25E5%25A6%2582%25E4%25BD%2595%25E4%25BD%25BF%25E7%2594%25A8git%25E8%25BF%259B%25E8%25A1%258C%25E5%259B%25A2%25E9%2598%259F%25E5%258D%258F%25E4%25BD%259C%2f" title="Share on Facebook"><span class="fab fa-facebook-f fa-2x" aria-hidden="true"></span></a>
-      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026%2f03%2f%25E5%25A6%2582%25E4%25BD%2595%25E4%25BD%25BF%25E7%2594%25A8git%25E8%25BF%259B%25E8%25A1%258C%25E5%259B%25A2%25E9%2598%259F%25E5%258D%258F%25E4%25BD%259C%2f" title="Share on LinkedIn"><span class="fab fa-linkedin-in fa-2x" aria-hidden="true"></span></a>
-      <a class="nav-item" href="https://twitter.com/intent/tweet?url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2026%2f03%2f%25E5%25A6%2582%25E4%25BD%2595%25E4%25BD%25BF%25E7%2594%25A8git%25E8%25BF%259B%25E8%25A1%258C%25E5%259B%25A2%25E9%2598%259F%25E5%258D%258F%25E4%25BD%259C%2f&amp;text=%e5%a6%82%e4%bd%95%e4%bd%bf%e7%94%a8GIT%e8%bf%9b%e8%a1%8c%e5%9b%a2%e9%98%9f%e5%8d%8f%e4%bd%9c" title="Tweet this"><span class="fab fa-twitter fa-2x"></span></a>
-    </nav>
-  </section>
-
-  
-
-  
-  </footer>
-  
-
-</article> 
-
-
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-  <section class="sidebar-module sidebar-module-inset">
-    <h4>About</h4>
-    <p dir="auto"><pre><code>👋 关于 Eric Wu
+</code></pre><hr><h2 id=一句话总结>一句话总结</h2><table><thead><tr><th>概念</th><th>作用</th></tr></thead><tbody><tr><td><strong>Fork</strong></td><td>把别人的仓库复制到你的账号，获得修改权限</td></tr><tr><td><strong>创建PR</strong></td><td>在原仓库页面，选择你的Fork分支作为源，申请合并</td></tr></tbody></table><p><strong>关键记忆点</strong>：PR是<strong>跨仓库</strong>的比较，必须从原仓库页面发起，比较"你的Fork分支"和"原仓库main分支"。</p><hr><footer><section><h4>Share</h4><nav class="nav sharing-icons"><a class=nav-item href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fricwyc-max.github.io%2fposts%2f2026%2f03%2f%25E5%25A6%2582%25E4%25BD%2595%25E4%25BD%25BF%25E7%2594%25A8git%25E8%25BF%259B%25E8%25A1%258C%25E5%259B%25A2%25E9%2598%259F%25E5%258D%258F%25E4%25BD%259C%2f" title="Share on Facebook"><span class="fab fa-facebook-f fa-2x" aria-hidden=true></span></a>
+<a class=nav-item href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fricwyc-max.github.io%2fposts%2f2026%2f03%2f%25E5%25A6%2582%25E4%25BD%2595%25E4%25BD%25BF%25E7%2594%25A8git%25E8%25BF%259B%25E8%25A1%258C%25E5%259B%25A2%25E9%2598%259F%25E5%258D%258F%25E4%25BD%259C%2f" title="Share on LinkedIn"><span class="fab fa-linkedin-in fa-2x" aria-hidden=true></span></a>
+<a class=nav-item href="https://twitter.com/intent/tweet?url=https%3a%2f%2fricwyc-max.github.io%2fposts%2f2026%2f03%2f%25E5%25A6%2582%25E4%25BD%2595%25E4%25BD%25BF%25E7%2594%25A8git%25E8%25BF%259B%25E8%25A1%258C%25E5%259B%25A2%25E9%2598%259F%25E5%258D%258F%25E4%25BD%259C%2f&amp;text=%e5%a6%82%e4%bd%95%e4%bd%bf%e7%94%a8GIT%e8%bf%9b%e8%a1%8c%e5%9b%a2%e9%98%9f%e5%8d%8f%e4%bd%9c" title="Tweet this"><span class="fab fa-twitter fa-2x"></span></a></nav></section></footer></article></div><aside class="col-sm-3 ml-auto blog-sidebar"><section class="sidebar-module sidebar-module-inset"><h4>About</h4><p dir=auto><pre><code>👋 关于 Eric Wu
 
 🎓 教育背景
 - 河海大学 智能建造专业（大三）
@@ -462,68 +78,4 @@ git add / commit / push origin feature
 - 嵌入式系统
 - 工程自动化
 - 机械智能化
-</code></pre>
-</p>
-  </section>
-  
-
-  
-        <section class="sidebar-module">
-    <h4>Recent Posts</h4>
-    <ol class="list-unstyled">
-
-
-<li><a href="http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E5%AE%8C%E6%95%B4%E7%89%88/">如何使用GIT进行团队协作（完整版）</a></li>
-
-<li><a href="http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E6%92%B0%E5%86%99%E4%B8%93%E5%88%A9/">如何撰写专利</a></li>
-
-<li><a href="http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/">如何使用GIT进行团队协作</a></li>
-
-<li><a href="http://localhost:1313/posts/2026/02/vscode%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E5%BF%AB%E6%8D%B7%E9%94%AE/">VScode开发者工具快捷键</a></li>
-
-<li><a href="http://localhost:1313/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/">前端工具的选择与安装</a></li>
-
-    </ol>
-  </section>
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
-      
-      <li><a href="mailto:1340748652@qq.com">📧 联系邮箱</a></li>
-      
-      <li><a href="https://linkedin.com/in/%e4%bd%a0%e7%9a%84%e7%94%a8%e6%88%b7%e5%90%8d">💼 LinkedIn</a></li>
-      
-      <li><a href="https://ricwyc-max.github.io/">📖 个人博客</a></li>
-      
-      <li><a href="https://github.com/ricwyc-max">⭐ GitHub</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
-    
-
-    
-    <footer class="blog-footer">
-      <p dir="auto">
-      
-      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
-    
-
-  </body>
-
-</html>
+</code></pre></p></section><section class=sidebar-module><h4>Recent Posts</h4><ol class=list-unstyled><li><a href=https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E5%AE%8C%E6%95%B4%E7%89%88/>如何使用GIT进行团队协作（完整版）</a></li><li><a href=https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E6%92%B0%E5%86%99%E4%B8%93%E5%88%A9/>如何撰写专利</a></li><li><a href=https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/>如何使用GIT进行团队协作</a></li><li><a href=https://ricwyc-max.github.io/posts/2026/02/vscode%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E5%BF%AB%E6%8D%B7%E9%94%AE/>VScode开发者工具快捷键</a></li><li><a href=https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/>前端工具的选择与安装</a></li></ol></section><section class=sidebar-module><h4>Links</h4><ol class=list-unstyled><li><a href=mailto:1340748652@qq.com>📧 联系邮箱</a></li><li><a href=https://linkedin.com/in/%e4%bd%a0%e7%9a%84%e7%94%a8%e6%88%b7%e5%90%8d>💼 LinkedIn</a></li><li><a href=https://ricwyc-max.github.io/>📖 个人博客</a></li><li><a href=https://github.com/ricwyc-max>⭐ GitHub</a></li></ol></section></aside></div></div><footer class=blog-footer><p dir=auto>Blog template created by <a href=https://twitter.com/mdo>@mdo</a>, ported to Hugo by <a href=https://twitter.com/mralanorth>@mralanorth</a>.</p><p><a href=#>Back to top</a></p></footer></body></html>

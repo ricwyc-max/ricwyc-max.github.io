@@ -1,68 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>笔记 on Eric Wu | 河海大学 智能建造 &amp; AI</title>
-    <link>http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/</link>
-    <description>Recent content in 笔记 on Eric Wu | 河海大学 智能建造 &amp; AI</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>如何使用GIT进行团队协作（完整版）</title>
-      <link>http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E5%AE%8C%E6%95%B4%E7%89%88/</link>
-      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E5%AE%8C%E6%95%B4%E7%89%88/</guid>
-      <description>&lt;p&gt;Wirtten by : Eric_wu&lt;/p&gt;&#xA;&lt;h1 id=&#34;目录&#34; class=&#34;TOC-Heading&#34;&gt;目录&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>如何撰写专利</title>
-      <link>http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E6%92%B0%E5%86%99%E4%B8%93%E5%88%A9/</link>
-      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E6%92%B0%E5%86%99%E4%B8%93%E5%88%A9/</guid>
-      <description>&lt;h1 id=&#34;手把手教你在最短的时间内写出一篇发明专利&#34;&gt;手把手教你在最短的时间内写出一篇发明专利&lt;/h1&gt;&#xA;&lt;p&gt;依然有迹可循&#xA;本博客参照BILI各大UP主的教程，具体详细内容可以搜索BILIBILI的“君弟的岁月杂谈”UP&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>如何使用GIT进行团队协作</title>
-      <link>http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/</link>
-      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/</guid>
-      <description>&lt;h3 id=&#34;如何使用git进行团队协作&#34;&gt;如何使用GIT进行团队协作&lt;/h3&gt;&#xA;&lt;h2 id=&#34;fork是什么&#34;&gt;Fork是什么？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fork = 复制别人的仓库到你的账号下&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>VScode开发者工具快捷键</title>
-      <link>http://localhost:1313/posts/2026/02/vscode%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
-      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026/02/vscode%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
-      <description>&lt;h3 id=&#34;vscode开发者工具快捷键&#34;&gt;VScode开发者工具快捷键&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1vscode打开文件夹&#34;&gt;1.&#x9;VScode打开文件夹&lt;/h4&gt;</description>
-    </item>
-    <item>
-      <title>前端工具的选择与安装</title>
-      <link>http://localhost:1313/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/</link>
-      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/</guid>
-      <description>&lt;h3 id=&#34;前端工具的选择与安装&#34;&gt;前端工具的选择与安装&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1前端常见开发者工具&#34;&gt;1.&#x9;前端常见开发者工具&lt;/h4&gt;</description>
-    </item>
-    <item>
-      <title>《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》论文精读</title>
-      <link>http://localhost:1313/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</link>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</guid>
-      <description>&lt;h3 id=&#34;a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses&#34;&gt;《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》&lt;/h3&gt;&#xA;&lt;h3 id=&#34;一个使用现成的tv摄像机和柔性焦距透镜组的用于高精确率3d机器视觉度量的多功能相机标定技术&#34;&gt;一个使用现成的TV摄像机和柔性焦距透镜组的用于高精确率3D机器视觉度量的多功能相机标定技术&lt;/h3&gt;</description>
-    </item>
-    <item>
-      <title>笔记索引页</title>
-      <link>http://localhost:1313/notebook/</link>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notebook/</guid>
-      <description>&lt;h3 id=&#34;笔记索引页&#34;&gt;📖笔记索引页&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;引导读者通往各大笔记blog的大厅&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>第一个前端程序</title>
-      <link>http://localhost:1313/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid>
-      <description>&lt;h3 id=&#34;第一个前端程序&#34;&gt;第一个前端程序&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1第一步使用笔记本编写代码&#34;&gt;1.&#x9;第一步：使用笔记本，编写代码&lt;/h4&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>笔记 on Eric Wu | 河海大学 智能建造 &amp; AI</title><link>https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/</link><description>Recent content in 笔记 on Eric Wu | 河海大学 智能建造 &amp; AI</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ricwyc-max.github.io/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>如何使用GIT进行团队协作（完整版）</title><link>https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E5%AE%8C%E6%95%B4%E7%89%88/</link><pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E5%AE%8C%E6%95%B4%E7%89%88/</guid><description>&lt;p&gt;Wirtten by : Eric_wu&lt;/p&gt;
+&lt;h1 id="目录" class="TOC-Heading"&gt;目录&lt;/h1&gt;</description></item><item><title>如何撰写专利</title><link>https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E6%92%B0%E5%86%99%E4%B8%93%E5%88%A9/</link><pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E6%92%B0%E5%86%99%E4%B8%93%E5%88%A9/</guid><description>&lt;h1 id="手把手教你在最短的时间内写出一篇发明专利"&gt;手把手教你在最短的时间内写出一篇发明专利&lt;/h1&gt;
+&lt;p&gt;依然有迹可循
+本博客参照BILI各大UP主的教程，具体详细内容可以搜索BILIBILI的“君弟的岁月杂谈”UP&lt;/p&gt;</description></item><item><title>如何使用GIT进行团队协作</title><link>https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/</link><pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/</guid><description>&lt;h3 id="如何使用git进行团队协作"&gt;如何使用GIT进行团队协作&lt;/h3&gt;
+&lt;h2 id="fork是什么"&gt;Fork是什么？&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Fork = 复制别人的仓库到你的账号下&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>VScode开发者工具快捷键</title><link>https://ricwyc-max.github.io/posts/2026/02/vscode%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/posts/2026/02/vscode%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h3 id="vscode开发者工具快捷键"&gt;VScode开发者工具快捷键&lt;/h3&gt;
+&lt;h4 id="1vscode打开文件夹"&gt;1.	VScode打开文件夹&lt;/h4&gt;</description></item><item><title>前端工具的选择与安装</title><link>https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/</link><pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/</guid><description>&lt;h3 id="前端工具的选择与安装"&gt;前端工具的选择与安装&lt;/h3&gt;
+&lt;h4 id="1前端常见开发者工具"&gt;1.	前端常见开发者工具&lt;/h4&gt;</description></item><item><title>《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》论文精读</title><link>https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</guid><description>&lt;h3 id="a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses"&gt;《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》&lt;/h3&gt;
+&lt;h3 id="一个使用现成的tv摄像机和柔性焦距透镜组的用于高精确率3d机器视觉度量的多功能相机标定技术"&gt;一个使用现成的TV摄像机和柔性焦距透镜组的用于高精确率3D机器视觉度量的多功能相机标定技术&lt;/h3&gt;</description></item><item><title>笔记索引页</title><link>https://ricwyc-max.github.io/notebook/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/notebook/</guid><description>&lt;h3 id="笔记索引页"&gt;📖笔记索引页&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;引导读者通往各大笔记blog的大厅&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>第一个前端程序</title><link>https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/posts/2026/01/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h3 id="第一个前端程序"&gt;第一个前端程序&lt;/h3&gt;
+&lt;h4 id="1第一步使用笔记本编写代码"&gt;1.	第一步：使用笔记本，编写代码&lt;/h4&gt;</description></item></channel></rss>
