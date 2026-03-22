@@ -1,7 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Abouts on Eric Wu | 河海大学 智能建造 &amp; AI</title><link>https://ricwyc-max.github.io/about/</link><description>Recent content in Abouts on Eric Wu | 河海大学 智能建造 &amp; AI</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ricwyc-max.github.io/about/index.xml" rel="self" type="application/rss+xml"/><item><title>介绍下我自己</title><link>https://ricwyc-max.github.io/about/introduce-myself/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate><guid>https://ricwyc-max.github.io/about/introduce-myself/</guid><description>&lt;h3 id="你好我是eric"&gt;你好！我是[Eric]&lt;/h3&gt;
-&lt;h3 id="基本信息"&gt;基本信息&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;学校&lt;/strong&gt;：河海大学&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;专业&lt;/strong&gt;：智能建造专业（主修） + 生成式人工智能（辅修）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;年级&lt;/strong&gt;：大三&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Eric Wu | 河海大学 智能建造 &amp; AI</title>
+    <link>https://ricwyc-max.github.io/about/</link>
+    <description>Recent content in Abouts on Eric Wu | 河海大学 智能建造 &amp; AI</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ricwyc-max.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>介绍下我自己</title>
+      <link>https://ricwyc-max.github.io/about/introduce-myself/</link>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ricwyc-max.github.io/about/introduce-myself/</guid>
+      <description>&lt;h3 id=&#34;你好我是eric&#34;&gt;你好！我是[Eric]&lt;/h3&gt;&#xA;&lt;h3 id=&#34;基本信息&#34;&gt;基本信息&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;学校&lt;/strong&gt;：河海大学&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;专业&lt;/strong&gt;：智能建造专业（主修） + 生成式人工智能（辅修）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;年级&lt;/strong&gt;：大三&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
