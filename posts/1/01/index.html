@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta property="og:url" content="https://ricwyc-max.github.io/posts/1/01/">
+  <meta property="og:site_name" content="Eric Wu | 河海大学 智能建造 & AI">
+  <meta property="og:title" content="Eric Wu | 河海大学 智能建造 & AI">
+  <meta property="og:description" content="Wirtten by : Eric_wu
+目录 [一、 工具下载 3](#工具下载)
+[1. VPN 3](#vpn)
+[2. Git 3](#git)
+[3. GitHub desktop 3](#github-desktop)
+[二、 下载详细步骤 3](#下载详细步骤)
+[1. VPN 3](#vpn-1)
+[2. Git 4](#git-1)
+[3. GithubDesktop 6](#githubdesktop)
+[三、 如何使用？ 7](#如何使用)
+[1. 新建一个本地的仓库 7](#新建一个本地的仓库)
+[2. 如何克隆一个仓库 11](#如何克隆一个仓库)
+[3. 版本管理 14](#版本管理)
+[4. 云端管理 20](#云端管理)
+[5. 代码协作 22](#代码协作)
+[6. 项目结构、项目描述、使用方式与代码的规范（README、描述与注释） 29](#项目结构项目描述使用方式与代码的规范readme描述与注释)
+如何使用git进行团队协作
+工具下载 VPN Git GitHub desktop 下载详细步骤 VPN 梯子地址 套餐价格 Windows使用教程 Git 浏览器搜索Git：（下图1）
+浏览器搜索GIT 可以看第一个博客参考下载，也可以自己进第二个官方网址下载。
+博客地址：Git 详细安装教程（详解 Git 安装过程的每一个步骤）_git安装-CSDN博客
+打开网址后点击Install for Windows：
+主界面的下载栏 选择Git for Windows/x64安装包进行下载：
+下载界面 下载完后根据博客流程安装并配置环境变量。">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Eric Wu | 河海大学 智能建造 & AI">
+  <meta name="twitter:description" content="Wirtten by : Eric_wu
+目录 [一、 工具下载 3](#工具下载)
+[1. VPN 3](#vpn)
+[2. Git 3](#git)
+[3. GitHub desktop 3](#github-desktop)
+[二、 下载详细步骤 3](#下载详细步骤)
+[1. VPN 3](#vpn-1)
+[2. Git 4](#git-1)
+[3. GithubDesktop 6](#githubdesktop)
+[三、 如何使用？ 7](#如何使用)
+[1. 新建一个本地的仓库 7](#新建一个本地的仓库)
+[2. 如何克隆一个仓库 11](#如何克隆一个仓库)
+[3. 版本管理 14](#版本管理)
+[4. 云端管理 20](#云端管理)
+[5. 代码协作 22](#代码协作)
+[6. 项目结构、项目描述、使用方式与代码的规范（README、描述与注释） 29](#项目结构项目描述使用方式与代码的规范readme描述与注释)
+如何使用git进行团队协作
+工具下载 VPN Git GitHub desktop 下载详细步骤 VPN 梯子地址 套餐价格 Windows使用教程 Git 浏览器搜索Git：（下图1）
+浏览器搜索GIT 可以看第一个博客参考下载，也可以自己进第二个官方网址下载。
+博客地址：Git 详细安装教程（详解 Git 安装过程的每一个步骤）_git安装-CSDN博客
+打开网址后点击Install for Windows：
+主界面的下载栏 选择Git for Windows/x64安装包进行下载：
+下载界面 下载完后根据博客流程安装并配置环境变量。">
+<meta name="generator" content="Hugo 0.154.5">
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "",
+  "url": "https://ricwyc-max.github.io/posts/1/01/",
+  "wordCount": "519",
+  "datePublished": "0001-01-01T00:00:00+00:00",
+  "author": {
+    "@type": "Person",
+    "name": "Eric Wu - 河海大学智能建造专业"
+  }
+}
+</script>
+
+
+
+    <link rel="canonical" href="https://ricwyc-max.github.io/posts/1/01/">
+
+    <title> | Eric Wu | 河海大学 智能建造 &amp; AI</title>
+
+    
+    <!-- combined, minified CSS -->
+    
+    <link href="https://ricwyc-max.github.io/css/style.0b72f41a0f22d687d912a8e7c945fc14c7a36daee062380f9fae9958e7d17da6.css" rel="stylesheet">
+    
+
+    <!-- minified Font Awesome for SVG icons -->
+    
+    <script defer src="https://ricwyc-max.github.io/js/fontawesome.min.a290d22177f491b8a83b0ee7eb739224c57ab052d8fab69d8f52aab860e42027.js" integrity="sha256-opDSIXf0kbioOw7n63OSJMV6sFLY&#43;radj1KquGDkICc=" crossorigin="anonymous"></script>
+
+    <!-- RSS 2.0 feed -->
+    
+
+    <link rel="icon" href="https://ricwyc-max.github.io/favicon.ico">
+
+<style>
+
+   
+  .blog-title img {
+    border-radius: 15px;    
+    height: 100px;          
+    flex-shrink: 0;
+  }
+</style>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/toolbar/prism-toolbar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/toolbar/prism-toolbar.min.css">
+
+<style>
+   
+  div.highlight,
+  pre[class*="language-"] {
+    position: relative;
+  }
+  .copy-btn {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    font-size: 12px;
+    padding: 2px 6px;
+    color: #fff;
+    background: #555;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .2s;
+    z-index: 10;
+  }
+  div.highlight:hover .copy-btn,
+  pre:hover .copy-btn {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  (function () {
+    
+    function insertCopy() {
+      document.querySelectorAll('pre[class*="language-"], div.highlight pre').forEach(function (pre) {
+        if (pre.querySelector('.copy-btn')) return;          
+        const btn = document.createElement('button');
+        btn.textContent = 'Copy';
+        btn.className = 'copy-btn';
+        btn.addEventListener('click', function () {
+          const code = pre.querySelector('code').innerText;
+          navigator.clipboard.writeText(code);
+          btn.textContent = 'Copied!';
+          setTimeout(() => btn.textContent = 'Copy', 1200);
+        });
+        pre.appendChild(btn);
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', insertCopy);
+    } else {
+      insertCopy();          
+    }
+
+    
+    window.addEventListener('prism-highlighted', insertCopy);
+  })();
+</script>
+
+
+<style>
+   
+  .blog-post {
+    background: #e3f2fd;                
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 30px 50px rgba(0,0,0,.5);  
+    transition: background .3s, box-shadow .3s;  
+  }
+
+   
+  .blog-post:hover {
+    background: #42a5f5;    
+    box-shadow: 0 40px 60px rgba(0,0,0,.7);
+  }
+
+   
+  .blog-post:hover p,
+  .blog-post:hover li,
+  .blog-post:hover blockquote {
+    color: #0d1b2a;
+  }
+
+   
+  .blog-post:hover a {
+    color: #f9a825 !important;    
+  }
+  
+</style>
+
+<style>
+   
+  .blog-post-meta a:hover,
+  .meta-terms a:hover {
+    color: #f9a825 !important;    
+  }
+</style>
+
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="https://ricwyc-max.github.io/">Home</a>
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/" title="">🏠 首页</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/about/introduce-myself" title="">👤 关于我</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/projects/" title="">🚀 项目经历</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/notebook/" title="">📓 学习笔记</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/paper/" title="">📰 论文精读</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/posts/" title="">📚 所有文章</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/" title="">✍️ 我的博客</a>
+          
+          
+          <a class="nav-link" href="https://github.com/ricwyc-max" title="">🐱 GitHub</a>
+          
+          
+          <a class="nav-link" href="https://ricwyc-max.github.io/search/search" title="">🔍 搜索文章</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title" dir="auto">
+  		<a href="https://ricwyc-max.github.io/" rel="home">
+    			<img src="https://ricwyc-max.github.io/images/logo.jpg" alt="logo" height="80" style="vertical-align: middle; margin-right: 0.5rem;">
+    			Eric Wu | 河海大学 智能建造 & AI
+  		</a>
+	</h1>
+        <p class="lead blog-description" dir="auto">Eric Wu | 河海大学智能建造专业大三学生 | 主修智能建造，辅修生成式AI | 研究方向：图像传感、计算机视觉</p>
+      </div>
+    </header>
+    
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://ricwyc-max.github.io/posts/1/01/"></a></h2>
+    <p class="blog-post-meta">
+
+</p>
+  </header>
+  <p>Wirtten by : Eric_wu</p>
+<h1 id="目录" class="TOC-Heading">目录</h1>
+<p>[一、 工具下载 <a href="#%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD">3</a>](#工具下载)</p>
+<p>[1. VPN <a href="#vpn">3</a>](#vpn)</p>
+<p>[2. Git <a href="#git">3</a>](#git)</p>
+<p>[3. GitHub desktop <a href="#github-desktop">3</a>](#github-desktop)</p>
+<p>[二、 下载详细步骤 <a href="#%E4%B8%8B%E8%BD%BD%E8%AF%A6%E7%BB%86%E6%AD%A5%E9%AA%A4">3</a>](#下载详细步骤)</p>
+<p>[1. VPN <a href="#vpn-1">3</a>](#vpn-1)</p>
+<p>[2. Git <a href="#git-1">4</a>](#git-1)</p>
+<p>[3. GithubDesktop <a href="#githubdesktop">6</a>](#githubdesktop)</p>
+<p>[三、 如何使用？ <a href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8">7</a>](#如何使用)</p>
+<p>[1. 新建一个本地的仓库 <a href="#%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%9C%AC%E5%9C%B0%E7%9A%84%E4%BB%93%E5%BA%93">7</a>](#新建一个本地的仓库)</p>
+<p>[2. 如何克隆一个仓库 <a href="#%E5%A6%82%E4%BD%95%E5%85%8B%E9%9A%86%E4%B8%80%E4%B8%AA%E4%BB%93%E5%BA%93">11</a>](#如何克隆一个仓库)</p>
+<p>[3. 版本管理 <a href="#%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86">14</a>](#版本管理)</p>
+<p>[4. 云端管理 <a href="#%E4%BA%91%E7%AB%AF%E7%AE%A1%E7%90%86">20</a>](#云端管理)</p>
+<p>[5. 代码协作 <a href="#%E4%BB%A3%E7%A0%81%E5%8D%8F%E4%BD%9C">22</a>](#代码协作)</p>
+<p>[6. 项目结构、项目描述、使用方式与代码的规范（README、描述与注释）
+<a href="#%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E9%A1%B9%E7%9B%AE%E6%8F%8F%E8%BF%B0%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F%E4%B8%8E%E4%BB%A3%E7%A0%81%E7%9A%84%E8%A7%84%E8%8C%83readme%E6%8F%8F%E8%BF%B0%E4%B8%8E%E6%B3%A8%E9%87%8A">29</a>](#项目结构项目描述使用方式与代码的规范readme描述与注释)</p>
+<p>如何使用git进行团队协作</p>
+<h2 id="工具下载">工具下载</h2>
+<h4 id="vpn">VPN</h4>
+<h4 id="git">Git</h4>
+<h4 id="github-desktop">GitHub desktop</h4>
+<h2 id="下载详细步骤">下载详细步骤</h2>
+<h4 id="vpn-1">VPN</h4>
+<p><img src="./images/HowToUseGITforCollaboration/media/image1.png" alt=""></p>
+<ol>
+<li>梯子地址</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image2.png" alt=""></p>
+<ol start="2">
+<li>套餐价格</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image3.png" alt=""></p>
+<ol start="3">
+<li>Windows使用教程</li>
+</ol>
+<h4 id="git-1">Git</h4>
+<p>浏览器搜索Git：（下图1）</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image4.png" alt=""></p>
+<ol start="4">
+<li>浏览器搜索GIT</li>
+</ol>
+<p>可以看第一个博客参考下载，也可以自己进第二个官方网址下载。</p>
+<p>博客地址：<a href="https://blog.csdn.net/mukes/article/details/115693833">Git 详细安装教程（详解 Git
+安装过程的每一个步骤）_git安装-CSDN博客</a></p>
+<p>打开网址后点击Install for Windows：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image5.png" alt=""></p>
+<ol start="5">
+<li>主界面的下载栏</li>
+</ol>
+<p>选择Git for Windows/x64安装包进行下载：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image6.png" alt=""></p>
+<ol start="6">
+<li>下载界面</li>
+</ol>
+<p>下载完后根据博客流程安装并配置环境变量。</p>
+<h4 id="githubdesktop">GithubDesktop</h4>
+<p>为什么要使用github desktop?</p>
+<p>Git官方UI和Bash太难使用，需要记忆太多的代码操作，github
+desktop可视化，方便使用和回溯。</p>
+<p>参考博客：<a href="https://blog.csdn.net/weixin_44982093/article/details/153679119?ops_request_misc=&amp;request_id=&amp;biz_id=102&amp;utm_term=githubdesktop&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-153679119.142%5ev102%5epc_search_result_base7&amp;spm=1018.2226.3001.4187">GitHub Desktop 使用入门_github
+desktop怎么配置-CSDN博客</a></p>
+<p>下载Github desktop</p>
+<p>创建并登入自己的github账号</p>
+<p>如何创建github账号：</p>
+<p><a href="https://docs.github.com/zh/get-started/start-your-journey/creating-an-account-on-github">https://docs.github.com/zh/get-started/start-your-journey/creating-an-account-on-github</a></p>
+<h1 id="如何使用">如何使用？</h1>
+<h4 id="新建一个本地的仓库">新建一个本地的仓库</h4>
+<p>在options中进行登录：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image7.png" alt=""></p>
+<ol start="7">
+<li>Options位置</li>
+</ol>
+<p>本地新建一个仓库：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image8.png" alt=""></p>
+<ol start="8">
+<li>新建仓库位置</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image9.png" alt=""></p>
+<ol start="9">
+<li>新建仓库选项</li>
+</ol>
+<p>Name:仓库名称</p>
+<p>Description:仓库描述</p>
+<p>Local path:本地仓库位置</p>
+<p>README:是否创建一个README(仓库的介绍)Markdown格式编码</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image10.png" alt=""></p>
+<ol start="10">
+<li>README案例</li>
+</ol>
+<p>Git ignore:在仓库中忽略的文件</p>
+<p>License:仓库的开源or闭源协议</p>
+<p>这个仓库现在保存在本地中。</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image11.png" alt=""></p>
+<ol start="11">
+<li>仓库文件</li>
+</ol>
+<p>.git：隐藏文件：包含版本信息</p>
+<p>LICENSE：刚刚添加的协议</p>
+<p>README.md：描述文件</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image12.png" alt=""></p>
+<ol start="12">
+<li>Readme文件的具体内容</li>
+</ol>
+<h4 id="如何克隆一个仓库">如何克隆一个仓库</h4>
+<p><img src="./images/HowToUseGITforCollaboration/media/image13.png" alt=""></p>
+<ol start="13">
+<li>Local</li>
+</ol>
+<p>Clone:克隆</p>
+<p>HTTPS：通过网址方式进行克隆（推荐用这个）</p>
+<p>GitHub Desktop：通过GitHub Desktop打开</p>
+<p>Download ZIP:直接下载ZIP压缩包</p>
+<p>把本地仓库删除：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image14.png" alt=""></p>
+<ol start="14">
+<li>本地仓库删除效果</li>
+</ol>
+<p>此时本地仓库就没有了，可以Remove掉。</p>
+<p>此时，我们复制Clone的这个URL：</p>
+<p><a href="https://github.com/ricwyc-max/word.git">https://github.com/ricwyc-max/word.git</a></p>
+<p>我们在File上找到这个Clone repository:</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image15.png" alt=""></p>
+<ol start="15">
+<li>Clone repository位置</li>
+</ol>
+<p>点击进入克隆页面，选择URL：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image16.png" alt=""></p>
+<ol start="16">
+<li>Clone参数</li>
+</ol>
+<p>将刚刚复制的ULR输入地址位置，然后选择我们克隆本地的仓库位置。</p>
+<p>选择完成，点击Clone。</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image17.png" alt=""></p>
+<ol start="17">
+<li>克隆结果</li>
+</ol>
+<p>此时云端的仓库又被拉回本地了。</p>
+<h4 id="版本管理">版本管理</h4>
+<p>在仓库文件夹中添加1.txt，在github desktop中可以看到我们修改的具体内容:</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image18.png" alt=""></p>
+<ol start="18">
+<li>添加1.txt</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image19.png" alt=""></p>
+<ol start="19">
+<li>当前仓库位置</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image20.png" alt=""></p>
+<ol start="20">
+<li>
+<p>修改的具体内容</p>
+</li>
+<li></li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image21.png" alt=""></p>
+<ol start="22">
+<li>描述栏</li>
+</ol>
+<p>第一行：简要的概述</p>
+<p>第二行：具体的描述</p>
+<p>Commit:提交修改</p>
+<p>提交之后点击history：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image22.png" alt=""></p>
+<ol start="23">
+<li>History位置</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image23.png" alt=""></p>
+<ol start="24">
+<li>History效果</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image24.png" alt=""></p>
+<ol start="25">
+<li>更新文件后，history效果</li>
+</ol>
+<p>为什么要进行提交修改？</p>
+<p>有时候我们写代码的时候，会出现代码写着写着报错了，但是ctrl+z没办法回到原来的版本，这个代码就报废了。</p>
+<p>但是，通过git版本管理软件进行管理，我们可以在合适的位置恢复我们的代码，从而避免这种情况的发生。</p>
+<p>我们可以在特定的保存位置创建分支，从而恢复之前的代码状况：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image25.png" alt=""></p>
+<ol start="26">
+<li>Create branch for commit位置</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image26.png" alt=""></p>
+<ol start="27">
+<li>为新分支输入名称</li>
+</ol>
+<p>我们可以看到Current
+branch一栏中两个分支：（一个是我们的主分支【main】，还有一个是创建的分支【branch】）</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image27.png" alt=""></p>
+<ol start="28">
+<li>Current branch一栏中两个分支</li>
+</ol>
+<p>选择branch分支，我们可以看到，1.txt回到了原来的位置：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image28.png" alt=""></p>
+<ol start="29">
+<li>文件回到了原来提交Create 1.txt的位置</li>
+</ol>
+<p>如果选择main主分支，我们的代码又回到了最新的位置。</p>
+<h4 id="云端管理">云端管理</h4>
+<p>将仓库上传到云端：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image29.png" alt=""></p>
+<ol start="30">
+<li>Publish</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image30.png" alt=""></p>
+<ol start="31">
+<li>Publish选项</li>
+</ol>
+<p>Name:仓库名称</p>
+<p>Description:仓库描述</p>
+<p>Keep tis code
+private:这个代码是否是开放的（如果是开放的，那就是别人可以下载，否则只有自己和共创者能看到）</p>
+<p>如何查看？</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image31.png" alt=""></p>
+<ol start="32">
+<li>View on GitHub位置</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image32.png" alt=""></p>
+<ol start="33">
+<li>测试仓库云端显示</li>
+</ol>
+<p>此时我的测试仓库就被拉到云端了！</p>
+<p>把个人本地仓库拉到云端的目的：</p>
+<ol>
+<li>
+<p>如果是开源仓库，开放下载，给开源社区提供贡献，增加个人影响力</p>
+</li>
+<li>
+<p>如果是私人仓库，代码留档，就可以将团队成员添加到共创者中，共创者就可以下载，远程修改仓库，从而引出代码协作这个功能</p>
+</li>
+</ol>
+<h4 id="代码协作">代码协作</h4>
+<p>在云端仓库位置，可以添加共创者：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image33.png" alt=""></p>
+<ol start="34">
+<li>添加共创者位置</li>
+</ol>
+<p>云端位置，Settings-&gt;Collaborators-&gt;Add people</p>
+<p>在没有添加共创者的情况下，只有你（项目所有者）能够向云端传送代码。其他人向上传输代码都会报错，只能够在其他人的云端创建一个你的云端仓库的副本（fork），再上传到其他人的云端副本上。</p>
+<p>在做提交的过程中，就会出现提示：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image34.png" alt=""></p>
+<ol start="35">
+<li>没有写入权限提示</li>
+</ol>
+<p>真正尝试提交仓库，就会报错：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image35.png" alt=""></p>
+<ol start="36">
+<li>没有写权限报错</li>
+</ol>
+<p>有没有什么办法能够让别人能够修改我的仓库？</p>
+<p>我可以把他人加进共创者中：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image36.png" alt=""></p>
+<ol start="37">
+<li>输入他人账号，添加权限</li>
+</ol>
+<p>点击添加：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image37.png" alt=""></p>
+<ol start="38">
+<li>添加后看到权限情况</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image38.png" alt=""></p>
+<ol start="39">
+<li>接收邀请</li>
+</ol>
+<p>此时他人再推送，就可以推送了！</p>
+<p>这个推送，推送到的是我的仓库，不是他人的仓库！</p>
+<p>此时，共创者进行了修改，将我的云端仓库修改成为了333333：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image39.png" alt=""></p>
+<ol start="40">
+<li>云端仓库情况</li>
+</ol>
+<p>但是，我的本地仓库还是22222：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image40.png" alt=""></p>
+<ol start="41">
+<li>本地仓库</li>
+</ol>
+<p>怎么够更新我的本地仓库，让共创者的修改同时反映到本地呢？</p>
+<p>我们点击Fetch origin:</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image41.png" alt=""></p>
+<ol start="42">
+<li>Fetch origin</li>
+</ol>
+<p><img src="./images/HowToUseGITforCollaboration/media/image42.png" alt=""></p>
+<ol start="43">
+<li>仓库搜索到了一个变化（提交）</li>
+</ol>
+<p>再点击一次，把这个共创者的提交拉回到本地：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image43.png" alt=""></p>
+<ol start="44">
+<li>点击后效果</li>
+</ol>
+<p>此时查看，就可以在本地看到共创者的修改，并且看到谁修改了仓库、修改了什么内容，同时我们本地的仓库也会进行更新：</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image44.png" alt=""></p>
+<ol start="45">
+<li>本地仓库更新</li>
+</ol>
+<p>为什么需要这个功能？</p>
+<p>比方说我们5个人需要共同写一份代码，但是互相的修改可能会有冲突，我们没有办法获取到最新的代码状态，通过这种方式，我们可以相互看到各自的代码，同时了解整个项目的运行进度。</p>
+<h4 id="项目结构项目描述使用方式与代码的规范readme描述与注释">项目结构、项目描述、使用方式与代码的规范（README、描述与注释）</h4>
+<p>README：项目介绍，库的文件结构，使用方式及基本介绍</p>
+<p>目前：</p>
+<ol>
+<li>
+<p>我们要完成的目标（每个人领取一个任务，想办法做成）</p>
+</li>
+<li>
+<p>目前的整个项目结构</p>
+</li>
+<li>
+<p>修改更新的部分</p>
+</li>
+</ol>
+<p>代码规范：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">自己搭建的网络块文件
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">包括：
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">1、基本残差网络（分前向激活和非前向激活版本）</span><span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">2、瓶颈结构残差块（Bottleneck Block）（分前向激活和非前向激活版本）</span><span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+</span></span></code></pre></div><p>代码最前面要有注释：描述整个文件具体做什么，有什么功能（概述）</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ResidualBlock</span>(nn<span style="color:#f92672">.</span>Module):
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">基础残差块（ResNet风格）
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">包含跳跃连接（Skip Connection），解决梯度消失问题
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">包含前向激活（preactivated）,解决100层以上网络训练困难问题
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">一次添加两个-三个（多一个下采样）卷积层
+</span></span></span></code></pre></div><p>每个类前面也有注释：描述这个具体类是干什么的。</p>
+<p>包括类有什么功能，这个类有什么初始化参数，这个类有什么方法。（概述）</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">*</span><span style="color:#75715e">#初始化定义\*</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__init__</span>(self, in_channels, out_channels, stride<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,downsample<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>, activation<span style="color:#f92672">=**</span><span style="color:#e6db74">&#39;relu&#39;</span>,preactivated<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>):
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">tip:输入通道必须和输出通道匹配，不然，没法相加 : y = f(x) + x
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">[f(x)与x的通道必须匹配]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">in_channels：输入通道数
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">out_channels：输出通道数
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">stride：步长
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">downsample:
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">下采样层（尺寸/通道不匹配时使用），需要时传入卷积块，不需要为None,默认None</span><span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">activation：激活层，只有relu和leaky_relu</span><span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">preactivated:是否前向激活,需要为True,不需要为False（Pre-activation/ResNet-v2风格）*
+</span></span></span></code></pre></div><p>每个初始化参数是什么，有什么用。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> preactivated:
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># ========== 标准 ResNet (ResNet-v1/v1.5) ==========</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            顺序：
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            Conv(1x1) → BN → ReLU →
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            Conv(3x3, stride) → BN → ReLU →  ← stride在这里（ResNet-v1.5推荐）
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            Conv(1x1) → BN → Add → ReLU
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>conv1 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>Conv2d(in_channels, mid_channels, kernel_size<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>                                   stride<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, padding<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, bias<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)  <span style="color:#75715e"># 降维</span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>bn1 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>BatchNorm2d(mid_channels)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>conv2 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>Conv2d(mid_channels, mid_channels, kernel_size<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>,
+</span></span><span style="display:flex;"><span>                                   stride<span style="color:#f92672">=</span>stride, padding<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, bias<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)  <span style="color:#75715e"># 特征提取+下采样</span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>bn2 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>BatchNorm2d(mid_channels)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>conv3 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>Conv2d(mid_channels, out_channels, kernel_size<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>                                   stride<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, padding<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, bias<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)  <span style="color:#75715e"># 升维</span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>bn3 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>BatchNorm2d(out_channels)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># ========== 预激活 ResNet-v2 (Pre-activation) ==========</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            顺序：
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            BN → ReLU → Conv(1x1) →
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            BN → ReLU → Conv(3x3, stride) →
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            BN → ReLU → Conv(1x1) → Add
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>bn1 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>BatchNorm2d(in_channels)
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>conv1 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>Conv2d(in_channels, mid_channels, kernel_size<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>                                   stride<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, padding<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, bias<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>bn2 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>BatchNorm2d(mid_channels)
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>conv2 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>Conv2d(mid_channels, mid_channels, kernel_size<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>,
+</span></span><span style="display:flex;"><span>                                   stride<span style="color:#f92672">=</span>stride, padding<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, bias<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>bn3 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>BatchNorm2d(mid_channels)
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>conv3 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>Conv2d(mid_channels, out_channels, kernel_size<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>                                   stride<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, padding<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, bias<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)
+</span></span></code></pre></div><p>我的每一部分代码块具体完成的什么内容。</p>
+<p>流程书写：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ==================== 像 tf.keras.Sequential 一样直接搭 ====================</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ============================== 模型定义 ===================================</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#使用 OrderedDict（给每层命名，更像TF）</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    model <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>Sequential(OrderedDict([
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;resBlok&#39;</span>, ResidualBottleneckBlock(<span style="color:#ae81ff">512</span>,<span style="color:#ae81ff">30</span>,<span style="color:#ae81ff">512</span>,preactivated<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;dowmSample&#39;</span>,nn<span style="color:#f92672">.</span>Conv2d(<span style="color:#ae81ff">512</span>, <span style="color:#ae81ff">256</span>, kernel_size<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>                                   stride<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>, padding<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, bias<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>))
+</span></span><span style="display:flex;"><span>    ]))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ==========================================================================</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 可以像字典一样访问</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#print(model.block1)  # 访问特定层</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 直接使用</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#x = torch.randn(2, 3, 224, 224)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#output = model(x)  # 自动顺序执行，无需forward</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#print(output.shape)  # [2, 10]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ================================== 打印模型架构 ============================</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 1、类似 model.summary() 的表格输出</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#summary(model, input_size=(512, 224, 224), device=&#39;cpu&#39;)#（输入通道，输入w尺寸，输入h尺寸）</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ================================== 打印模型架构 ============================</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 2、torchinfo（推荐，信息更丰富）</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 输出包含：</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># - 每层的输入/输出形状</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># - 参数量</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># - 乘加运算量（FLOPs估算）</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># - 内存占用</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;&#39;&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    sum(model,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        input_size=(2,512, 224, 224),  # (batch, channels, H, W)
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        col_names=[&#34;input_size&#34;, &#34;output_size&#34;, &#34;num_params&#34;, &#34;kernel_size&#34;, &#34;mult_adds&#34;],#显示的列
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        col_width=20,#每列显示的宽度
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        row_settings=[&#34;var_names&#34;],#行的显示设置
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        verbose=1)
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#39;&#39;&#39;</span>
+</span></span></code></pre></div><p>在做方法定义时候，最重要的不是你里面具体注释了什么。里面的注释是给做这个方法的人看的，但对使用者来说，我只需要知道这个方法，输入是什么、输出是什么就行了。</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image45.png" alt=""></p>
+<ol start="46">
+<li>README提交格式</li>
+</ol>
+<p>Summery:概述提交的内容</p>
+<p>Description:具体描述提交的内容</p>
+<p><img src="./images/HowToUseGITforCollaboration/media/image46.png" alt=""></p>
+<ol start="47">
+<li>提交描述格式</li>
+</ol>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fricwyc-max.github.io%2fposts%2f1%2f01%2f" title="Share on Facebook"><span class="fab fa-facebook-f fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fricwyc-max.github.io%2fposts%2f1%2f01%2f" title="Share on LinkedIn"><span class="fab fa-linkedin-in fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fricwyc-max.github.io%2fposts%2f1%2f01%2f&amp;text=" title="Tweet this"><span class="fab fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+  <section class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p dir="auto"><pre><code>👋 关于 Eric Wu
+
+🎓 教育背景
+- 河海大学 智能建造专业（大三）
+- 辅修：生成式人工智能
+
+🔬 研究方向
+- 图像传感技术
+- 计算机视觉
+- 智能建造与AI融合
+
+🚀 当前项目
+1. 土建施工现场危险行为检测预警系统
+2. 基于U-color的知识蒸馏轻量化网络构建
+
+💡 技术兴趣
+- 前端/后端开发
+- 嵌入式系统
+- 工程自动化
+- 机械智能化
+</code></pre>
+</p>
+  </section>
+  
+
+  
+        <section class="sidebar-module">
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+
+
+<li><a href="https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E6%92%B0%E5%86%99%E4%B8%93%E5%88%A9/">如何撰写专利</a></li>
+
+<li><a href="https://ricwyc-max.github.io/posts/2026/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E8%BF%9B%E8%A1%8C%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/">如何使用GIT进行团队协作</a></li>
+
+<li><a href="https://ricwyc-max.github.io/posts/2026/02/vscode%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E5%BF%AB%E6%8D%B7%E9%94%AE/">VScode开发者工具快捷键</a></li>
+
+<li><a href="https://ricwyc-max.github.io/posts/2026/02/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E5%AE%89%E8%A3%85/">前端工具的选择与安装</a></li>
+
+<li><a href="https://ricwyc-max.github.io/posts/2026/01/a-versatile-camera-calibration-techniaue-for-high-accuracy-3d-machine-vision-metrology-using-off-the-shelf-tv-cameras-and-lenses%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/">《A Versatile Camera Calibration Techniaue for High-Accuracy 3D Machine Vision Metrology Using Off-the-shelf TV Cameras and Lenses》论文精读</a></li>
+
+    </ol>
+  </section>
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="mailto:1340748652@qq.com">📧 联系邮箱</a></li>
+      
+      <li><a href="https://linkedin.com/in/%e4%bd%a0%e7%9a%84%e7%94%a8%e6%88%b7%e5%90%8d">💼 LinkedIn</a></li>
+      
+      <li><a href="https://ricwyc-max.github.io/">📖 个人博客</a></li>
+      
+      <li><a href="https://github.com/ricwyc-max">⭐ GitHub</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p dir="auto">
+      
+      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>
