@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>索引 on Eric Wu | 河海大学 智能建造 &amp; AI</title>
-    <link>http://localhost:1313/categories/%E7%B4%A2%E5%BC%95/</link>
+    <link>https://ricwyc-max.github.io/categories/%E7%B4%A2%E5%BC%95/</link>
     <description>Recent content in 索引 on Eric Wu | 河海大学 智能建造 &amp; AI</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E7%B4%A2%E5%BC%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ricwyc-max.github.io/categories/%E7%B4%A2%E5%BC%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的项目索引页</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://ricwyc-max.github.io/projects/</link>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://ricwyc-max.github.io/projects/</guid>
       <description>&lt;h3 id=&#34;我的项目索引页&#34;&gt;💻我的项目索引页&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;引导读者通往各大项目blog的大厅&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>论文精读索引页</title>
-      <link>http://localhost:1313/paper/</link>
+      <link>https://ricwyc-max.github.io/paper/</link>
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/paper/</guid>
+      <guid>https://ricwyc-max.github.io/paper/</guid>
       <description>&lt;h3 id=&#34;论文精读索引页&#34;&gt;📰论文精读索引页&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;引导读者通往各大论文精读blog的大厅&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
